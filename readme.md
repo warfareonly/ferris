@@ -4,6 +4,9 @@ Meet Ferris, a minimalistic keyboard
 Named after the Rustlang mascott, ferris is a 34 keys split keyboard that tries to be about as cute as its namesake.
 
 ![Ferris](https://i.imgur.com/qOv4XDe.jpeg)
+![Ferris low front](https://i.imgur.com/EvFGVE1.jpg)
+![Ferris low back](https://i.imgur.com/Viu42o1.jpg)
+
 
 Ferris is minimalistic: it aims to be a functional, ergonomic keyboard that is pleasing to use as a daily driver. It only supports choc keyswitches, although it would be easy to make a MX version if there was interest.
 
@@ -50,6 +53,14 @@ This describes the first ever iteration of the Ferris keyboard: a plain pcb with
 * No holes through the PCB. The intent is to use it case-less.
 * Switches are spaced by 19mm from each other in each direction (almost exactly what's known as MX spacing [19.05x19.05]). This allows for a wider variety of compatible keycaps for the price of gaps for certain keycaps that respect the Kailh choc specification
 * Columnar stagger identical to the one on the Kyria
+
+### Ferris low variant, rev 0.1
+
+* Same as the base variant with major change that the footprints are for Kailh PG1232 instead of choc for an even lower profile
+* Copper pad adapted to ducking Ferris for theme
+* Silkscreen changed to display schematics from the PG1232 switch
+* Recommended PCB solder mask color is blue instead of white so the silkscreen gives vibes of a blueprint
+* Name of the board updated to "Ferris low" instead of "Ferris"
 
 ### Upcoming changes
 
