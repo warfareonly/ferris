@@ -1,4 +1,4 @@
-19158522520263213
+19147360444891213
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83013,13 +83013,6 @@ varistor SIOV
 2
 2
 ferris
-Kailh_PG1232
-
-
-0
-4
-4
-ferris
 SW_PG1350
 Kailh "Choc" PG1350 keyswitch
 kailh,choc
@@ -83027,21 +83020,14 @@ kailh,choc
 2
 2
 ferris
-ducking_ferris_pad
+ferris_silk_closed_eyes
 
 
 0
 0
 0
 ferris
-ducking_pad
-
-
-0
-0
-0
-ferris
-happy_ferris_pad
+ferris_silk_open_eyes
 
 
 0
@@ -83069,49 +83055,14 @@ safe_rust
 0
 0
 ferris
-silk_pg1232_bottom
+tall_ferris_copper_pad
 
 
 0
 0
 0
 ferris
-silk_pg1232_footprint
-
-
-0
-0
-0
-ferris
-silk_pg1232_left
-
-
-0
-0
-0
-ferris
-silk_pg1232_right
-
-
-0
-0
-0
-ferris
-silk_pg1232_schematic
-
-
-0
-0
-0
-ferris
-silk_pg1232_side
-
-
-0
-0
-0
-ferris
-silk_pg2132_top
+tall_pad_front
 
 
 0
