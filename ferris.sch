@@ -1171,28 +1171,28 @@ col9
 $Comp
 L Device:R R7
 U 1 1 60281202
-P 4550 5250
-F 0 "R7" V 4650 5200 50  0000 C CNN
-F 1 "4.7k" V 4550 5250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4480 5250 50  0001 C CNN
-F 3 "~" H 4550 5250 50  0001 C CNN
-F 4 "C17673" V 4550 5250 50  0001 C CNN "LCSC Part #"
-	1    4550 5250
+P 8750 4300
+F 0 "R7" V 8850 4250 50  0000 C CNN
+F 1 "4.7k" V 8750 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8680 4300 50  0001 C CNN
+F 3 "~" H 8750 4300 50  0001 C CNN
+F 4 "C17673" V 8750 4300 50  0001 C CNN "LCSC Part #"
+	1    8750 4300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R8
 U 1 1 602A653D
-P 4550 5650
-F 0 "R8" V 4650 5700 50  0000 C CNN
-F 1 "4.7k" V 4550 5650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4480 5650 50  0001 C CNN
-F 3 "~" H 4550 5650 50  0001 C CNN
-	1    4550 5650
+P 9000 4400
+F 0 "R8" V 9100 4450 50  0000 C CNN
+F 1 "4.7k" V 9000 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8930 4400 50  0001 C CNN
+F 3 "~" H 9000 4400 50  0001 C CNN
+	1    9000 4400
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8600 4150 10000 4150
+	8600 4150 8750 4150
 Wire Wire Line
 	8450 6350 9300 6350
 Wire Wire Line
@@ -1227,7 +1227,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 4350 8600 4350
 Wire Wire Line
-	8350 4450 9300 4450
+	8350 4450 8750 4450
 $Comp
 L Connector:AudioJack4 Jack1
 U 1 1 5EFEDC58
@@ -1240,7 +1240,7 @@ F 3 "" H 8150 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8350 4550 9300 4550
+	8350 4550 9000 4550
 $Comp
 L power:VDD #PWR0126
 U 1 1 5EE420B1
@@ -1433,24 +1433,7 @@ Wire Wire Line
 	2350 6000 2450 6000
 Connection ~ 2350 6000
 Wire Wire Line
-	4150 5400 4550 5400
-Wire Wire Line
-	4150 5500 4550 5500
-Connection ~ 4550 5400
-Wire Wire Line
-	4550 5400 4700 5400
-Connection ~ 4550 5500
-Wire Wire Line
-	4550 5500 4700 5500
-Wire Wire Line
-	4550 5800 4650 5800
-Wire Wire Line
-	4650 5800 4650 5600
-Wire Wire Line
 	4700 5600 4650 5600
-Connection ~ 4650 5600
-Wire Wire Line
-	4550 5100 4650 5100
 NoConn ~ 4150 4200
 NoConn ~ 4150 4900
 NoConn ~ 4150 5600
@@ -1749,7 +1732,6 @@ F 3 "" H 4650 5100 60  0000 C CNN
 	1    4650 5100
 	1    0    0    -1  
 $EndComp
-Connection ~ 4650 5100
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5F143292
@@ -1863,17 +1845,6 @@ $EndComp
 Wire Wire Line
 	4700 5700 4700 6050
 $Comp
-L Interface_Expansion:TCA9535RTWR U3
-U 1 1 5F24632D
-P 6800 5200
-F 0 "U3" H 6800 6481 50  0000 C CNN
-F 1 "TCA9535RTWR" H 6800 6390 50  0000 C CNN
-F 2 "Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm" H 8000 4200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tca9535.pdf" H 6300 6100 50  0001 C CNN
-	1    6800 5200
-	1    0    0    -1  
-$EndComp
-$Comp
 L LED:WS2812B D1
 U 1 1 5F237653
 P 5250 3700
@@ -1904,4 +1875,22 @@ Wire Wire Line
 Wire Wire Line
 	4950 6700 4950 3700
 NoConn ~ 5550 3700
+Connection ~ 8750 4450
+Wire Wire Line
+	8750 4450 9300 4450
+Connection ~ 8750 4150
+Wire Wire Line
+	8750 4150 9000 4150
+Connection ~ 9000 4550
+Wire Wire Line
+	9000 4550 9300 4550
+Wire Wire Line
+	9000 4250 9000 4150
+Wire Wire Line
+	4150 5400 4700 5400
+Wire Wire Line
+	4150 5500 4700 5500
+Connection ~ 9000 4150
+Wire Wire Line
+	9000 4150 10000 4150
 $EndSCHEMATC
