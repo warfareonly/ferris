@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ferris)(type KiCad)(uri ${KIPRJMOD}/ferris.pretty)(options "")(descr ""))
+  (lib (name MX)(type KiCad)(uri /Users/bharatgarhewal/Desktop/keyboard/ferris/absolem_layout/MX_Only.pretty)(options "")(descr ""))
+)
