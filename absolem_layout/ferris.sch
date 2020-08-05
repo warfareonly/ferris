@@ -1132,14 +1132,6 @@ Wire Wire Line
 Wire Wire Line
 	9950 1500 10550 1500
 Connection ~ 9950 1500
-Text Label 10475 6225 0    50   ~ 0
-row1,0
-Text Label 10450 6350 0    50   ~ 0
-row1,1
-Text Label 10475 6475 0    50   ~ 0
-row1,2
-Text Label 10450 6625 0    50   ~ 0
-row1,3
 Text Label 4150 7100 0    50   ~ 0
 col5
 Text Label 4150 7000 0    50   ~ 0
@@ -1298,15 +1290,12 @@ Connection ~ 2150 6000
 Wire Wire Line
 	2350 6000 2450 6000
 Connection ~ 2350 6000
-NoConn ~ 4150 4200
 NoConn ~ 4150 4900
 NoConn ~ 4150 6400
 Text Label 4150 4500 0    50   ~ 0
 row0,0
 Text Label 4150 4400 0    50   ~ 0
 row0,1
-Text Label 4150 4300 0    50   ~ 0
-row0,2
 Text Label 4150 6600 0    50   ~ 0
 row0,3
 Text Label 4150 6000 0    50   ~ 0
@@ -1344,7 +1333,6 @@ F 3 "" H 1850 4600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4150 5100
-NoConn ~ 4150 5200
 Wire Wire Line
 	1850 4800 1850 4900
 Connection ~ 1850 4900
@@ -1611,7 +1599,6 @@ F 3 "" H 5250 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5550 3700
-NoConn ~ 4575 5550
 $Comp
 L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K3_2
 U 1 1 5F2A8958
@@ -1695,8 +1682,29 @@ Connection ~ 4450 1800
 Connection ~ 4450 2400
 Text Label 4150 6700 0    50   ~ 0
 col9
+NoConn ~ 4500 5475
+Text Label 4150 4300 0    50   ~ 0
+row0,2
+NoConn ~ 4150 4200
+NoConn ~ 15300 3700
+Text Label 9550 5950 0    50   ~ 0
+row1,3
+Text Label 9575 5800 0    50   ~ 0
+row1,2
+Text Label 9550 5675 0    50   ~ 0
+row1,1
+Text Label 9575 5550 0    50   ~ 0
+row1,0
 Wire Wire Line
-	4150 5800 4950 5800
+	4950 3700 4575 3700
 Wire Wire Line
-	4950 5800 4950 3700
+	4575 3700 4575 5200
+Wire Wire Line
+	4575 5200 4150 5200
+NoConn ~ 4150 5400
+NoConn ~ 4150 5500
+NoConn ~ 4150 5600
+NoConn ~ 4150 5700
+NoConn ~ 4150 5800
+NoConn ~ 4150 5900
 $EndSCHEMATC
