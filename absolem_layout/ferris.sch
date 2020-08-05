@@ -1132,13 +1132,13 @@ Wire Wire Line
 Wire Wire Line
 	9950 1500 10550 1500
 Connection ~ 9950 1500
-Text Label 9575 5550 0    50   ~ 0
+Text Label 10475 6225 0    50   ~ 0
 row1,0
-Text Label 9550 5675 0    50   ~ 0
+Text Label 10450 6350 0    50   ~ 0
 row1,1
-Text Label 9575 5800 0    50   ~ 0
+Text Label 10475 6475 0    50   ~ 0
 row1,2
-Text Label 9550 5950 0    50   ~ 0
+Text Label 10450 6625 0    50   ~ 0
 row1,3
 Text Label 4150 7100 0    50   ~ 0
 col5
@@ -1148,73 +1148,15 @@ Text Label 4150 6900 0    50   ~ 0
 col7
 Text Label 4150 6800 0    50   ~ 0
 col8
-$Comp
-L Device:R R7
-U 1 1 60281202
-P 6625 4400
-F 0 "R7" V 6725 4350 50  0000 C CNN
-F 1 "4.7k" V 6625 4400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6555 4400 50  0001 C CNN
-F 3 "~" H 6625 4400 50  0001 C CNN
-F 4 "C17673" V 6625 4400 50  0001 C CNN "LCSC Part #"
-	1    6625 4400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 602A653D
-P 7050 4500
-F 0 "R8" V 7150 4550 50  0000 C CNN
-F 1 "4.7k" V 7050 4500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6980 4500 50  0001 C CNN
-F 3 "~" H 7050 4500 50  0001 C CNN
-	1    7050 4500
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8550 2700 9250 2700
 NoConn ~ 2950 4800
 NoConn ~ 1550 5700
 NoConn ~ 1550 5800
-NoConn ~ 15300 3700
 Wire Wire Line
 	10550 1800 10550 2400
 Wire Wire Line
 	10550 1200 10550 1800
-$Comp
-L power:VDD #PWR0126
-U 1 1 5EE420B1
-P 7750 3700
-F 0 "#PWR0126" H 7750 3550 50  0001 C CNN
-F 1 "VDD" H 7850 3700 50  0000 L CNN
-F 2 "" H 7750 3700 50  0001 C CNN
-F 3 "" H 7750 3700 50  0001 C CNN
-	1    7750 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C9
-U 1 1 5ED8F3F5
-P 10625 3000
-F 0 "C9" V 10525 2950 50  0000 L CNN
-F 1 "0.1u" V 10725 2900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10625 3000 50  0001 C CNN
-F 3 "~" H 10625 3000 50  0001 C CNN
-F 4 "C49678" V 10625 3000 50  0001 C CNN "LCSC Part #"
-	1    10625 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VDD #PWR0135
-U 1 1 5EDA3C15
-P 10425 3000
-F 0 "#PWR0135" H 10425 2850 50  0001 C CNN
-F 1 "VDD" H 10440 3173 50  0000 C CNN
-F 2 "" H 10425 3000 50  0001 C CNN
-F 3 "" H 10425 3000 50  0001 C CNN
-	1    10425 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3750 3000 3750 2400
 Wire Wire Line
@@ -1359,48 +1301,6 @@ Connection ~ 2350 6000
 NoConn ~ 4150 4200
 NoConn ~ 4150 4900
 NoConn ~ 4150 6400
-$Comp
-L Device:C_Small C10
-U 1 1 5F9F59AE
-P 10625 3300
-F 0 "C10" V 10525 3250 50  0000 L CNN
-F 1 "0.1u" V 10725 3200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10625 3300 50  0001 C CNN
-F 3 "~" H 10625 3300 50  0001 C CNN
-F 4 "C49678" V 10625 3300 50  0001 C CNN "LCSC Part #"
-	1    10625 3300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10725 3300 10725 3000
-Wire Wire Line
-	10525 3300 10525 3000
-Wire Wire Line
-	10825 3000 10725 3000
-Connection ~ 10725 3000
-Connection ~ 10525 3000
-$Comp
-L Device:R R9
-U 1 1 5FA6C6B0
-P 6850 6150
-F 0 "R9" V 6750 6150 50  0000 C CNN
-F 1 "10k" V 6850 6150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6780 6150 50  0001 C CNN
-F 3 "~" H 6850 6150 50  0001 C CNN
-	1    6850 6150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VDD #PWR0112
-U 1 1 5FA6F90D
-P 6700 6150
-F 0 "#PWR0112" H 6700 6000 50  0001 C CNN
-F 1 "VDD" H 6650 6350 50  0000 L CNN
-F 2 "" H 6700 6150 50  0001 C CNN
-F 3 "" H 6700 6150 50  0001 C CNN
-	1    6700 6150
-	1    0    0    -1  
-$EndComp
 Text Label 4150 4500 0    50   ~ 0
 row0,0
 Text Label 4150 4400 0    50   ~ 0
@@ -1443,34 +1343,8 @@ F 3 "" H 1850 4600 60  0000 C CNN
 	1    1850 4600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7600 7225 7600 6875
 NoConn ~ 4150 5100
 NoConn ~ 4150 5200
-Wire Wire Line
-	10425 3000 10525 3000
-$Comp
-L power:VSS #PWR0121
-U 1 1 5F05F2A6
-P 8250 6350
-F 0 "#PWR0121" H 8250 6200 50  0001 C CNN
-F 1 "VSS" H 8250 6500 50  0000 C CNN
-F 2 "" H 8250 6350 50  0001 C CNN
-F 3 "" H 8250 6350 50  0001 C CNN
-	1    8250 6350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VSS #PWR0123
-U 1 1 5F05FE59
-P 10825 3000
-F 0 "#PWR0123" H 10825 2850 50  0001 C CNN
-F 1 "VSS" H 10825 3150 50  0000 C CNN
-F 2 "" H 10825 3000 50  0001 C CNN
-F 3 "" H 10825 3000 50  0001 C CNN
-	1    10825 3000
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1850 4800 1850 4900
 Connection ~ 1850 4900
@@ -1507,29 +1381,6 @@ F 2 "" H 4450 6300 60  0000 C CNN
 F 3 "" H 4450 6300 60  0000 C CNN
 	1    4450 6300
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 5F0D6F7A
-P 7600 7425
-F 0 "#PWR0106" H 7600 7475 20  0001 C CNN
-F 1 "GND" H 7650 7375 30  0000 L CNN
-F 2 "" H 7600 7425 60  0000 C CNN
-F 3 "" H 7600 7425 60  0000 C CNN
-	1    7600 7425
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack4 Jack0
-U 1 1 5FF96E70
-P 8100 7225
-F 0 "Jack0" H 8100 7425 50  0000 R CNN
-F 1 "TRRS" H 8100 6875 50  0000 R CNN
-F 2 "kbd:TRRS-PJ-320A" H 8100 7225 50  0001 C CNN
-F 3 "" H 8100 7225 50  0001 C CNN
-F 4 "C12569" H 8100 7225 50  0001 C CNN "LCSC Part #"
-	1    8100 7225
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0108
@@ -1621,17 +1472,6 @@ F 1 "+5V" H 2465 6158 30  0000 C CNN
 F 2 "" H 2450 6000 60  0000 C CNN
 F 3 "" H 2450 6000 60  0000 C CNN
 	1    2450 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0117
-U 1 1 5F1173D1
-P 7600 6875
-F 0 "#PWR0117" H 7600 6845 20  0001 C CNN
-F 1 "+5V" H 7615 7033 30  0000 C CNN
-F 2 "" H 7600 6875 60  0000 C CNN
-F 3 "" H 7600 6875 60  0000 C CNN
-	1    7600 6875
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1771,94 +1611,7 @@ F 3 "" H 5250 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5550 3700
-Wire Wire Line
-	7600 7425 7600 7325
-$Comp
-L ferris-rescue:PCA9539PW-Interface_Expansion-ferris-rescue U3
-U 1 1 5F351AF3
-P 7775 5350
-F 0 "U3" H 7775 6531 50  0000 C CNN
-F 1 "PCA9539PW" H 7775 6440 50  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 7775 5350 50  0001 C CNN
-F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9539_PCA9539R.pdf" H 7775 5350 50  0001 C CNN
-	1    7775 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7275 6050 7125 6050
-Wire Wire Line
-	7125 6050 7125 6350
-Wire Wire Line
-	7125 6350 7775 6350
-Connection ~ 7775 6350
-Wire Wire Line
-	7275 5950 7125 5950
-Wire Wire Line
-	7125 5950 7125 6050
-Connection ~ 7125 6050
-Wire Wire Line
-	7275 6150 7000 6150
-Wire Wire Line
-	7275 4650 7050 4650
-Wire Wire Line
-	7775 3775 7775 4350
-Wire Wire Line
-	7125 3675 7125 5950
-Connection ~ 7125 5950
-Wire Wire Line
-	6475 3675 7125 3675
-Wire Wire Line
-	6475 3775 6625 3775
-$Comp
-L Connector:AudioJack4 Jack1
-U 1 1 5EFEDC58
-P 6275 3775
-F 0 "Jack1" H 6325 3325 50  0000 R CNN
-F 1 "TRRS" H 6275 3425 50  0000 R CNN
-F 2 "kbd:TRRS-PJ-320A" H 6275 3775 50  0001 C CNN
-F 3 "" H 6275 3775 50  0001 C CNN
-	1    6275 3775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6475 3975 6475 4550
-Wire Wire Line
-	6475 4550 6625 4550
-Wire Wire Line
-	6475 3875 6975 3875
-Wire Wire Line
-	6975 3875 6975 4650
-Connection ~ 6625 4550
-Wire Wire Line
-	6625 4550 7275 4550
-Connection ~ 7050 4650
-Wire Wire Line
-	7050 4650 6975 4650
-Wire Wire Line
-	6625 4250 6625 3775
-Connection ~ 6625 3775
-Wire Wire Line
-	6625 3775 7050 3775
-Wire Wire Line
-	7050 4350 7050 3775
-Connection ~ 7050 3775
-Wire Wire Line
-	7050 3775 7750 3775
-NoConn ~ 7275 4850
 NoConn ~ 4575 5550
-NoConn ~ 8275 5150
-NoConn ~ 8275 5250
-NoConn ~ 8275 5850
-NoConn ~ 8275 5950
-NoConn ~ 8275 6050
-NoConn ~ 8275 6150
-Wire Wire Line
-	7775 6350 8250 6350
-Wire Wire Line
-	7750 3700 7750 3775
-Connection ~ 7750 3775
-Wire Wire Line
-	7750 3775 7775 3775
 $Comp
 L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K3_2
 U 1 1 5F2A8958
