@@ -2134,10 +2134,10 @@ Wire Wire Line
 Wire Wire Line
 	10125 3750 9750 3750
 $Comp
-L ferris-rescue:C_Small-Device C?
+L ferris-rescue:C_Small-Device C13
 U 1 1 5F35F244
 P 9750 3850
-F 0 "C?" V 9650 3800 50  0000 L CNN
+F 0 "C13" V 9650 3800 50  0000 L CNN
 F 1 "100n" V 9850 3750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 3850 50  0001 C CNN
 F 3 "~" H 9750 3850 50  0001 C CNN
@@ -2146,14 +2146,182 @@ F 4 "C49678" V 9750 3850 50  0001 C CNN "LCSC Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:GND-power #PWR?
+L ferris-rescue:GND-power #PWR0134
 U 1 1 5F397A3F
 P 9750 3950
-F 0 "#PWR?" H 9750 4000 20  0001 C CNN
+F 0 "#PWR0134" H 9750 4000 20  0001 C CNN
 F 1 "GND" V 9750 3750 30  0000 L CNN
 F 2 "" H 9750 3950 60  0000 C CNN
 F 3 "" H 9750 3950 60  0000 C CNN
 	1    9750 3950
 	1    0    0    -1  
 $EndComp
+$Comp
+L ferris-rescue:+3.3V-power #PWR?
+U 1 1 5F491F96
+P 5300 10375
+F 0 "#PWR?" H 5300 10225 50  0001 C CNN
+F 1 "+3.3V" H 5315 10548 50  0000 C CNN
+F 2 "" H 5300 10375 50  0001 C CNN
+F 3 "" H 5300 10375 50  0001 C CNN
+	1    5300 10375
+	1    0    0    -1  
+$EndComp
+$Comp
+L ferris-rescue:+3.3V-power #PWR?
+U 1 1 5F492655
+P 6150 10400
+F 0 "#PWR?" H 6150 10250 50  0001 C CNN
+F 1 "+3.3V" H 6165 10573 50  0000 C CNN
+F 2 "" H 6150 10400 50  0001 C CNN
+F 3 "" H 6150 10400 50  0001 C CNN
+	1    6150 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ferris-rescue:GND-power #PWR?
+U 1 1 5F4928A2
+P 5300 10750
+F 0 "#PWR?" H 5300 10800 20  0001 C CNN
+F 1 "GND" V 5300 10550 30  0000 L CNN
+F 2 "" H 5300 10750 60  0000 C CNN
+F 3 "" H 5300 10750 60  0000 C CNN
+	1    5300 10750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ferris-rescue:GND-power #PWR?
+U 1 1 5F492B9C
+P 6150 10750
+F 0 "#PWR?" H 6150 10800 20  0001 C CNN
+F 1 "GND" V 6150 10550 30  0000 L CNN
+F 2 "" H 6150 10750 60  0000 C CNN
+F 3 "" H 6150 10750 60  0000 C CNN
+	1    6150 10750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ferris-rescue:C_Small-Device C?
+U 1 1 5F493E8A
+P 5300 10575
+F 0 "C?" H 5150 10500 50  0000 C BNN
+F 1 "1u" H 5075 10625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5300 10575 50  0001 C CNN
+F 3 "~" H 5300 10575 50  0001 C CNN
+	1    5300 10575
+	-1   0    0    1   
+$EndComp
+$Comp
+L ferris-rescue:C_Small-Device C?
+U 1 1 5F495876
+P 5650 10575
+F 0 "C?" H 5500 10500 50  0000 C BNN
+F 1 "10n" H 5425 10625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 10575 50  0001 C CNN
+F 3 "~" H 5650 10575 50  0001 C CNN
+	1    5650 10575
+	-1   0    0    1   
+$EndComp
+$Comp
+L ferris-rescue:C_Small-Device C?
+U 1 1 5F495EE0
+P 6150 10575
+F 0 "C?" H 6000 10500 50  0000 C BNN
+F 1 "4.7u" H 5925 10625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 10575 50  0001 C CNN
+F 3 "~" H 6150 10575 50  0001 C CNN
+	1    6150 10575
+	-1   0    0    1   
+$EndComp
+$Comp
+L ferris-rescue:C_Small-Device C?
+U 1 1 5F496832
+P 6475 10575
+F 0 "C?" H 6325 10500 50  0000 C BNN
+F 1 "100n" H 6250 10625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6475 10575 50  0001 C CNN
+F 3 "~" H 6475 10575 50  0001 C CNN
+	1    6475 10575
+	-1   0    0    1   
+$EndComp
+$Comp
+L ferris-rescue:C_Small-Device C?
+U 1 1 5F496C31
+P 6775 10575
+F 0 "C?" H 6625 10500 50  0000 C BNN
+F 1 "100n" H 6550 10625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6775 10575 50  0001 C CNN
+F 3 "~" H 6775 10575 50  0001 C CNN
+	1    6775 10575
+	-1   0    0    1   
+$EndComp
+$Comp
+L ferris-rescue:C_Small-Device C?
+U 1 1 5F496E51
+P 7075 10575
+F 0 "C?" H 6925 10500 50  0000 C BNN
+F 1 "100n" H 6850 10625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7075 10575 50  0001 C CNN
+F 3 "~" H 7075 10575 50  0001 C CNN
+	1    7075 10575
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 10375 5300 10425
+Wire Wire Line
+	5300 10425 5650 10425
+Wire Wire Line
+	5650 10425 5650 10475
+Connection ~ 5300 10425
+Wire Wire Line
+	5300 10425 5300 10475
+Wire Wire Line
+	5300 10675 5300 10725
+Wire Wire Line
+	5650 10675 5650 10725
+Wire Wire Line
+	5650 10725 5300 10725
+Connection ~ 5300 10725
+Wire Wire Line
+	5300 10725 5300 10750
+Wire Wire Line
+	6150 10400 6150 10425
+Wire Wire Line
+	6150 10675 6150 10725
+Wire Wire Line
+	6150 10425 6475 10425
+Wire Wire Line
+	7075 10425 7075 10475
+Connection ~ 6150 10425
+Wire Wire Line
+	6150 10425 6150 10475
+Wire Wire Line
+	7075 10675 7075 10725
+Wire Wire Line
+	7075 10725 6775 10725
+Connection ~ 6150 10725
+Wire Wire Line
+	6150 10725 6150 10750
+Wire Wire Line
+	6475 10475 6475 10425
+Connection ~ 6475 10425
+Wire Wire Line
+	6475 10425 6775 10425
+Wire Wire Line
+	6775 10475 6775 10425
+Connection ~ 6775 10425
+Wire Wire Line
+	6775 10425 7075 10425
+Wire Wire Line
+	6475 10675 6475 10725
+Connection ~ 6475 10725
+Wire Wire Line
+	6475 10725 6150 10725
+Wire Wire Line
+	6775 10675 6775 10725
+Connection ~ 6775 10725
+Wire Wire Line
+	6775 10725 6475 10725
+Text Notes 6325 11125 2    50   ~ 0
+Decoupling capacitors
 $EndSCHEMATC
