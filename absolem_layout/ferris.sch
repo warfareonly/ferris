@@ -14,148 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ferris-rescue:C_Small-Device C1
-U 1 1 5ECC190F
-P 2300 4400
-F 0 "C1" V 2250 4450 50  0000 L CNN
-F 1 "22p" V 2350 4450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2300 4400 50  0001 C CNN
-F 3 "~" H 2300 4400 50  0001 C CNN
-F 4 "C1804" H 2300 4400 50  0001 C CNN "LCSC Part #"
-	1    2300 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L ferris-rescue:C_Small-Device C2
-U 1 1 5ECC5F06
-P 2300 4600
-F 0 "C2" V 2350 4450 50  0000 L CNN
-F 1 "22p" V 2250 4400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2300 4600 50  0001 C CNN
-F 3 "~" H 2300 4600 50  0001 C CNN
-	1    2300 4600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ferris-rescue:C_Small-Device C3
-U 1 1 5ECE0CD2
-P 2250 6000
-F 0 "C3" V 2150 5950 50  0000 L CNN
-F 1 "0.1u" V 2350 5900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2250 6000 50  0001 C CNN
-F 3 "~" H 2250 6000 50  0001 C CNN
-F 4 "C49678" V 2250 6000 50  0001 C CNN "LCSC Part #"
-	1    2250 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L ferris-rescue:C_Small-Device C4
-U 1 1 5ECE0FCF
-P 2250 6350
-F 0 "C4" V 2150 6300 50  0000 L CNN
-F 1 "0.1u" V 2350 6250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2250 6350 50  0001 C CNN
-F 3 "~" H 2250 6350 50  0001 C CNN
-	1    2250 6350
-	0    1    1    0   
-$EndComp
-$Comp
-L ferris-rescue:C_Small-Device C5
-U 1 1 5ECE11C2
-P 2250 6650
-F 0 "C5" V 2150 6600 50  0000 L CNN
-F 1 "0.1u" V 2350 6550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2250 6650 50  0001 C CNN
-F 3 "~" H 2250 6650 50  0001 C CNN
-	1    2250 6650
-	0    1    1    0   
-$EndComp
-$Comp
-L ferris-rescue:C_Small-Device C6
-U 1 1 5ECE13D7
-P 2250 6950
-F 0 "C6" V 2150 6900 50  0000 L CNN
-F 1 "0.1u" V 2350 6850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2250 6950 50  0001 C CNN
-F 3 "~" H 2250 6950 50  0001 C CNN
-	1    2250 6950
-	0    1    1    0   
-$EndComp
-$Comp
-L ferris-rescue:C_Small-Device C7
-U 1 1 5ECE163A
-P 2250 7250
-F 0 "C7" V 2150 7200 50  0000 L CNN
-F 1 "4.7u" V 2350 7150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2250 7250 50  0001 C CNN
-F 3 "~" H 2250 7250 50  0001 C CNN
-F 4 "C1779" V 2250 7250 50  0001 C CNN "LCSC Part #"
-	1    2250 7250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2350 6000 2350 6350
-Wire Wire Line
-	2350 6350 2350 6650
-Connection ~ 2350 6350
-Wire Wire Line
-	2350 6650 2350 6950
-Connection ~ 2350 6650
-Wire Wire Line
-	2350 6950 2350 7250
-Connection ~ 2350 6950
-Wire Wire Line
-	2150 7250 2150 6950
-Wire Wire Line
-	2150 6950 2150 6650
-Connection ~ 2150 6950
-Wire Wire Line
-	2150 6650 2150 6350
-Connection ~ 2150 6650
-Wire Wire Line
-	2150 6350 2150 6000
-Connection ~ 2150 6350
-$Comp
-L ferris-rescue:SW_PUSH-keyboard_parts-ferris-rescue SW1
-U 1 1 5ECF50EB
-P 2600 4200
-F 0 "SW1" H 2600 4200 50  0000 C CNN
-F 1 "SW_PUSH" H 2600 4350 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 2600 4200 60  0001 C CNN
-F 3 "" H 2600 4200 60  0001 C CNN
-F 4 "C231329" H 2600 4200 50  0001 C CNN "LCSC Part #"
-	1    2600 4200
-	1    0    0    -1  
-$EndComp
-$Comp
 L ferris-rescue:R-Device R1
-U 1 1 5ECF5B89
-P 2900 4050
-F 0 "R1" V 2800 4050 50  0000 C CNN
-F 1 "10k" V 2900 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2830 4050 50  0001 C CNN
-F 3 "~" H 2900 4050 50  0001 C CNN
-F 4 "C17414" V 2900 4050 50  0001 C CNN "LCSC Part #"
-	1    2900 4050
-	-1   0    0    1   
-$EndComp
-$Comp
-L ferris-rescue:C_Small-Device C8
-U 1 1 5ED59971
-P 2850 5500
-F 0 "C8" V 2800 5400 50  0000 C CNN
-F 1 "1u" V 2800 5600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2850 5500 50  0001 C CNN
-F 3 "~" H 2850 5500 50  0001 C CNN
-F 4 "C28323" V 2850 5500 50  0001 C CNN "LCSC Part #"
-	1    2850 5500
-	0    1    1    0   
-$EndComp
-$Comp
-L ferris-rescue:R-Device R5
 U 1 1 5ED68FE1
 P 1700 4800
-F 0 "R5" V 1600 4800 50  0000 C CNN
+F 0 "R1" V 1600 4800 50  0000 C CNN
 F 1 "5.1K" V 1700 4800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 4800 50  0001 C CNN
 F 3 "~" H 1700 4800 50  0001 C CNN
@@ -164,10 +26,10 @@ F 4 "C27834" V 1700 4800 50  0001 C CNN "LCSC Part #"
 	0    1    1    0   
 $EndComp
 $Comp
-L ferris-rescue:R-Device R6
+L ferris-rescue:R-Device R2
 U 1 1 5ED69FD6
 P 1700 4900
-F 0 "R6" V 1800 4900 50  0000 C CNN
+F 0 "R2" V 1800 4900 50  0000 C CNN
 F 1 "5.1K" V 1700 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 4900 50  0001 C CNN
 F 3 "~" H 1700 4900 50  0001 C CNN
@@ -175,55 +37,20 @@ F 3 "~" H 1700 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ferris-rescue:GND-power #PWR0107
+L ferris-rescue:GND-power #PWR06
 U 1 1 5ED72D47
-P 1850 4900
-F 0 "#PWR0107" H 1850 4950 20  0001 C CNN
-F 1 "GND" H 1900 4850 30  0000 L CNN
-F 2 "" H 1850 4900 60  0000 C CNN
-F 3 "" H 1850 4900 60  0000 C CNN
-	1    1850 4900
+P 2350 4875
+F 0 "#PWR06" H 2350 4925 20  0001 C CNN
+F 1 "GND" H 2400 4825 30  0000 L CNN
+F 2 "" H 2350 4875 60  0000 C CNN
+F 3 "" H 2350 4875 60  0000 C CNN
+	1    2350 4875
 	1    0    0    -1  
 $EndComp
-Connection ~ 1550 5300
 Wire Wire Line
-	1550 5400 1550 5300
+	1550 5400 1550 5350
 Wire Wire Line
-	1550 5200 1550 5100
-$Comp
-L ferris-rescue:R-Device R4
-U 1 1 5ED4D4BF
-P 1700 5300
-F 0 "R4" V 1800 5300 50  0000 C CNN
-F 1 "22" V 1700 5300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 5300 50  0001 C CNN
-F 3 "~" H 1700 5300 50  0001 C CNN
-	1    1700 5300
-	0    1    1    0   
-$EndComp
-$Comp
-L ferris-rescue:R-Device R3
-U 1 1 5ED46B5F
-P 1700 5200
-F 0 "R3" V 1600 5200 50  0000 C CNN
-F 1 "22" V 1700 5200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 5200 50  0001 C CNN
-F 3 "" H 1700 5200 50  0001 C CNN
-F 4 "C17561" V 1700 5200 50  0001 C CNN "LCSC Part #"
-	1    1700 5200
-	0    1    1    0   
-$EndComp
-$Comp
-L ferris-rescue:R-Device R2
-U 1 1 5ED02278
-P 4300 6300
-F 0 "R2" V 4200 6300 50  0000 C CNN
-F 1 "10k" V 4300 6300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4230 6300 50  0001 C CNN
-F 3 "~" H 4300 6300 50  0001 C CNN
-	1    4300 6300
-	0    1    1    0   
-$EndComp
+	1550 5200 1550 5150
 $Comp
 L ferris-rescue:USB_C_Receptacle_USB2.0-Connector J1
 U 1 1 5EF5D00C
@@ -236,12 +63,11 @@ F 4 "C165948" H 950 5200 50  0001 C CNN "LCSC Part #"
 	1    950  5200
 	1    0    0    -1  
 $EndComp
-Connection ~ 1550 5200
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_0
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_1
 U 1 1 5EE18079
 P 1350 1200
-F 0 "K0_0" H 1350 1433 60  0000 C CNN
+F 0 "K0_1" H 1350 1433 60  0000 C CNN
 F 1 "KEYSW" H 1350 1100 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 1350 1200 60  0001 C CNN
 F 3 "" H 1350 1200 60  0000 C CNN
@@ -250,10 +76,10 @@ F 4 "C489144" H 1350 1200 50  0001 C CNN "LCSC Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D0_0
+L ferris-rescue:D-Device D0_1
 U 1 1 5EE1B34F
 P 1050 1350
-F 0 "D0_0" V 1096 1270 50  0000 R CNN
+F 0 "D0_1" V 1096 1270 50  0000 R CNN
 F 1 "D" V 1005 1270 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 1050 1350 50  0001 C CNN
 F 3 "~" H 1050 1350 50  0001 C CNN
@@ -272,10 +98,10 @@ Wire Wire Line
 Text Label 900  2100 2    50   ~ 0
 row1
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_0
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_1
 U 1 1 5EE22042
 P 1350 1800
-F 0 "K1_0" H 1350 2033 60  0000 C CNN
+F 0 "K1_1" H 1350 2033 60  0000 C CNN
 F 1 "KEYSW" H 1350 1700 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 1350 1800 60  0001 C CNN
 F 3 "" H 1350 1800 60  0000 C CNN
@@ -283,10 +109,10 @@ F 3 "" H 1350 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D1_0
+L ferris-rescue:D-Device D1_1
 U 1 1 5EE22835
 P 1050 1950
-F 0 "D1_0" V 1096 1870 50  0000 R CNN
+F 0 "D1_1" V 1096 1870 50  0000 R CNN
 F 1 "D" V 1005 1870 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 1050 1950 50  0001 C CNN
 F 3 "~" H 1050 1950 50  0001 C CNN
@@ -303,10 +129,10 @@ col1
 Wire Wire Line
 	2350 900  2350 1200
 $Comp
-L ferris-rescue:D-Device D0_1
+L ferris-rescue:D-Device D0_2
 U 1 1 5EE44032
 P 1750 1350
-F 0 "D0_1" V 1796 1270 50  0000 R CNN
+F 0 "D0_2" V 1796 1270 50  0000 R CNN
 F 1 "D" V 1705 1270 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 1750 1350 50  0001 C CNN
 F 3 "~" H 1750 1350 50  0001 C CNN
@@ -317,10 +143,10 @@ Wire Wire Line
 	1050 1500 1750 1500
 Connection ~ 1050 1500
 $Comp
-L ferris-rescue:D-Device D1_1
+L ferris-rescue:D-Device D1_2
 U 1 1 5EE478DC
 P 1750 1950
-F 0 "D1_1" V 1796 1870 50  0000 R CNN
+F 0 "D1_2" V 1796 1870 50  0000 R CNN
 F 1 "D" V 1705 1870 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 1750 1950 50  0001 C CNN
 F 3 "~" H 1750 1950 50  0001 C CNN
@@ -328,10 +154,10 @@ F 3 "~" H 1750 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_1
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_2
 U 1 1 5EE47E8A
 P 2050 1800
-F 0 "K1_1" H 2050 2033 60  0000 C CNN
+F 0 "K1_2" H 2050 2033 60  0000 C CNN
 F 1 "KEYSW" H 2050 1700 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 2050 1800 60  0001 C CNN
 F 3 "" H 2050 1800 60  0000 C CNN
@@ -344,10 +170,10 @@ Wire Wire Line
 	1050 2100 1750 2100
 Connection ~ 1050 2100
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_2
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_3
 U 1 1 5EE8C569
 P 2750 1200
-F 0 "K0_2" H 2750 1433 60  0000 C CNN
+F 0 "K0_3" H 2750 1433 60  0000 C CNN
 F 1 "KEYSW" H 2750 1100 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 2750 1200 60  0001 C CNN
 F 3 "" H 2750 1200 60  0000 C CNN
@@ -355,10 +181,10 @@ F 3 "" H 2750 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D0_2
+L ferris-rescue:D-Device D0_3
 U 1 1 5EE8DCFE
 P 2450 1350
-F 0 "D0_2" V 2496 1270 50  0000 R CNN
+F 0 "D0_3" V 2496 1270 50  0000 R CNN
 F 1 "D" V 2405 1270 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 2450 1350 50  0001 C CNN
 F 3 "~" H 2450 1350 50  0001 C CNN
@@ -366,10 +192,10 @@ F 3 "~" H 2450 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_1
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_2
 U 1 1 5EEBC822
 P 2050 1200
-F 0 "K0_1" H 2050 1433 60  0000 C CNN
+F 0 "K0_2" H 2050 1433 60  0000 C CNN
 F 1 "KEYSW" H 2050 1100 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 2050 1200 60  0001 C CNN
 F 3 "" H 2050 1200 60  0000 C CNN
@@ -383,10 +209,10 @@ Wire Wire Line
 	1750 1500 2450 1500
 Connection ~ 1750 1500
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_2
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_3
 U 1 1 5EECD1C4
 P 2750 1800
-F 0 "K1_2" H 2750 2033 60  0000 C CNN
+F 0 "K1_3" H 2750 2033 60  0000 C CNN
 F 1 "KEYSW" H 2750 1700 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 2750 1800 60  0001 C CNN
 F 3 "" H 2750 1800 60  0000 C CNN
@@ -399,10 +225,10 @@ Wire Wire Line
 	3050 1200 3050 1800
 Connection ~ 3050 1200
 $Comp
-L ferris-rescue:D-Device D1_2
+L ferris-rescue:D-Device D1_3
 U 1 1 5EED29B3
 P 2450 1950
-F 0 "D1_2" V 2496 1870 50  0000 R CNN
+F 0 "D1_3" V 2496 1870 50  0000 R CNN
 F 1 "D" V 2405 1870 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 2450 1950 50  0001 C CNN
 F 3 "~" H 2450 1950 50  0001 C CNN
@@ -410,10 +236,10 @@ F 3 "~" H 2450 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_0
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_1
 U 1 1 5EED2FA2
 P 1350 2400
-F 0 "K2_0" H 1350 2633 60  0000 C CNN
+F 0 "K2_1" H 1350 2633 60  0000 C CNN
 F 1 "KEYSW" H 1350 2300 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 1350 2400 60  0001 C CNN
 F 3 "" H 1350 2400 60  0000 C CNN
@@ -423,10 +249,10 @@ $EndComp
 Text Label 900  2700 2    50   ~ 0
 row2
 $Comp
-L ferris-rescue:D-Device D2_0
+L ferris-rescue:D-Device D2_1
 U 1 1 5EED3821
 P 1050 2550
-F 0 "D2_0" V 1096 2470 50  0000 R CNN
+F 0 "D2_1" V 1096 2470 50  0000 R CNN
 F 1 "D" V 1005 2470 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 1050 2550 50  0001 C CNN
 F 3 "~" H 1050 2550 50  0001 C CNN
@@ -437,10 +263,10 @@ Wire Wire Line
 	1650 1800 1650 2400
 Connection ~ 1650 1800
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_1
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_2
 U 1 1 5EED5B60
 P 2050 2400
-F 0 "K2_1" H 2050 2633 60  0000 C CNN
+F 0 "K2_2" H 2050 2633 60  0000 C CNN
 F 1 "KEYSW" H 2050 2300 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 2050 2400 60  0001 C CNN
 F 3 "" H 2050 2400 60  0000 C CNN
@@ -448,10 +274,10 @@ F 3 "" H 2050 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_2
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_3
 U 1 1 5EED6065
 P 2750 2400
-F 0 "K2_2" H 2750 2633 60  0000 C CNN
+F 0 "K2_3" H 2750 2633 60  0000 C CNN
 F 1 "KEYSW" H 2750 2300 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 2750 2400 60  0001 C CNN
 F 3 "" H 2750 2400 60  0000 C CNN
@@ -468,10 +294,10 @@ Wire Wire Line
 	1750 2100 2450 2100
 Connection ~ 1750 2100
 $Comp
-L ferris-rescue:D-Device D2_1
+L ferris-rescue:D-Device D2_2
 U 1 1 5EEEC45B
 P 1750 2550
-F 0 "D2_1" V 1796 2470 50  0000 R CNN
+F 0 "D2_2" V 1796 2470 50  0000 R CNN
 F 1 "D" V 1705 2470 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 1750 2550 50  0001 C CNN
 F 3 "~" H 1750 2550 50  0001 C CNN
@@ -479,10 +305,10 @@ F 3 "~" H 1750 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:D-Device D2_2
+L ferris-rescue:D-Device D2_3
 U 1 1 5EEECA76
 P 2450 2550
-F 0 "D2_2" V 2496 2470 50  0000 R CNN
+F 0 "D2_3" V 2496 2470 50  0000 R CNN
 F 1 "D" V 2405 2470 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 2450 2550 50  0001 C CNN
 F 3 "~" H 2450 2550 50  0001 C CNN
@@ -498,10 +324,10 @@ Connection ~ 1750 2700
 Wire Wire Line
 	1750 2700 2450 2700
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_3
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_4
 U 1 1 5EEF6C30
 P 3450 1200
-F 0 "K0_3" H 3450 1433 60  0000 C CNN
+F 0 "K0_4" H 3450 1433 60  0000 C CNN
 F 1 "KEYSW" H 3450 1100 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 3450 1200 60  0001 C CNN
 F 3 "" H 3450 1200 60  0000 C CNN
@@ -509,10 +335,10 @@ F 3 "" H 3450 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_3
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_4
 U 1 1 5EEF70F9
 P 3450 1800
-F 0 "K1_3" H 3450 2033 60  0000 C CNN
+F 0 "K1_4" H 3450 2033 60  0000 C CNN
 F 1 "KEYSW" H 3450 1700 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 3450 1800 60  0001 C CNN
 F 3 "" H 3450 1800 60  0000 C CNN
@@ -520,10 +346,10 @@ F 3 "" H 3450 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_3
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_4
 U 1 1 5EEF764A
 P 3450 2400
-F 0 "K2_3" H 3450 2633 60  0000 C CNN
+F 0 "K2_4" H 3450 2633 60  0000 C CNN
 F 1 "KEYSW" H 3450 2300 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 3450 2400 60  0001 C CNN
 F 3 "" H 3450 2400 60  0000 C CNN
@@ -531,10 +357,10 @@ F 3 "" H 3450 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D0_3
+L ferris-rescue:D-Device D0_4
 U 1 1 5EEF7A7A
 P 3150 1350
-F 0 "D0_3" V 3196 1270 50  0000 R CNN
+F 0 "D0_4" V 3196 1270 50  0000 R CNN
 F 1 "D" V 3105 1270 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 3150 1350 50  0001 C CNN
 F 3 "~" H 3150 1350 50  0001 C CNN
@@ -542,10 +368,10 @@ F 3 "~" H 3150 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:D-Device D1_3
+L ferris-rescue:D-Device D1_4
 U 1 1 5EEF7F2D
 P 3150 1950
-F 0 "D1_3" V 3196 1870 50  0000 R CNN
+F 0 "D1_4" V 3196 1870 50  0000 R CNN
 F 1 "D" V 3105 1870 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 3150 1950 50  0001 C CNN
 F 3 "~" H 3150 1950 50  0001 C CNN
@@ -553,10 +379,10 @@ F 3 "~" H 3150 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:D-Device D2_3
+L ferris-rescue:D-Device D2_4
 U 1 1 5EEF838C
 P 3150 2550
-F 0 "D2_3" V 3196 2470 50  0000 R CNN
+F 0 "D2_4" V 3196 2470 50  0000 R CNN
 F 1 "D" V 3105 2470 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 3150 2550 50  0001 C CNN
 F 3 "~" H 3150 2550 50  0001 C CNN
@@ -564,10 +390,10 @@ F 3 "~" H 3150 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_4
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_5
 U 1 1 5EEF9889
 P 4150 1200
-F 0 "K0_4" H 4150 1433 60  0000 C CNN
+F 0 "K0_5" H 4150 1433 60  0000 C CNN
 F 1 "KEYSW" H 4150 1100 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 4150 1200 60  0001 C CNN
 F 3 "" H 4150 1200 60  0000 C CNN
@@ -575,10 +401,10 @@ F 3 "" H 4150 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D0_4
+L ferris-rescue:D-Device D0_5
 U 1 1 5EEFA013
 P 3850 1350
-F 0 "D0_4" V 3896 1270 50  0000 R CNN
+F 0 "D0_5" V 3896 1270 50  0000 R CNN
 F 1 "D" V 3805 1270 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 3850 1350 50  0001 C CNN
 F 3 "~" H 3850 1350 50  0001 C CNN
@@ -586,10 +412,10 @@ F 3 "~" H 3850 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_4
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_5
 U 1 1 5EEFA968
 P 4150 1800
-F 0 "K1_4" H 4150 2033 60  0000 C CNN
+F 0 "K1_5" H 4150 2033 60  0000 C CNN
 F 1 "KEYSW" H 4150 1700 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 4150 1800 60  0001 C CNN
 F 3 "" H 4150 1800 60  0000 C CNN
@@ -597,10 +423,10 @@ F 3 "" H 4150 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D1_4
+L ferris-rescue:D-Device D1_5
 U 1 1 5EEFB5C1
 P 3850 1950
-F 0 "D1_4" V 3896 1870 50  0000 R CNN
+F 0 "D1_5" V 3896 1870 50  0000 R CNN
 F 1 "D" V 3805 1870 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 3850 1950 50  0001 C CNN
 F 3 "~" H 3850 1950 50  0001 C CNN
@@ -608,10 +434,10 @@ F 3 "~" H 3850 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_4
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_5
 U 1 1 5EEFBA25
 P 4150 2400
-F 0 "K2_4" H 4150 2633 60  0000 C CNN
+F 0 "K2_5" H 4150 2633 60  0000 C CNN
 F 1 "KEYSW" H 4150 2300 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 4150 2400 60  0001 C CNN
 F 3 "" H 4150 2400 60  0000 C CNN
@@ -619,10 +445,10 @@ F 3 "" H 4150 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D2_4
+L ferris-rescue:D-Device D2_5
 U 1 1 5EEFC892
 P 3850 2550
-F 0 "D2_4" V 3896 2470 50  0000 R CNN
+F 0 "D2_5" V 3896 2470 50  0000 R CNN
 F 1 "D" V 3805 2470 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 3850 2550 50  0001 C CNN
 F 3 "~" H 3850 2550 50  0001 C CNN
@@ -662,10 +488,10 @@ Wire Wire Line
 Wire Wire Line
 	3850 2700 3150 2700
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K3_3
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K3_2
 U 1 1 5EF1C6CA
 P 3450 3000
-F 0 "K3_3" H 3450 3233 60  0000 C CNN
+F 0 "K3_2" H 3450 3233 60  0000 C CNN
 F 1 "KEYSW" H 3450 2900 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 3450 3000 60  0001 C CNN
 F 3 "" H 3450 3000 60  0000 C CNN
@@ -673,10 +499,10 @@ F 3 "" H 3450 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K3_4
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K3_3
 U 1 1 5EF1CAA2
 P 4150 3000
-F 0 "K3_4" H 4150 3233 60  0000 C CNN
+F 0 "K3_3" H 4150 3233 60  0000 C CNN
 F 1 "KEYSW" H 4150 2900 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 4150 3000 60  0001 C CNN
 F 3 "" H 4150 3000 60  0000 C CNN
@@ -684,10 +510,10 @@ F 3 "" H 4150 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D3_3
+L ferris-rescue:D-Device D3_2
 U 1 1 5EF1DB01
 P 3150 3150
-F 0 "D3_3" V 3196 3070 50  0000 R CNN
+F 0 "D3_2" V 3196 3070 50  0000 R CNN
 F 1 "D" V 3105 3070 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 3150 3150 50  0001 C CNN
 F 3 "~" H 3150 3150 50  0001 C CNN
@@ -695,10 +521,10 @@ F 3 "~" H 3150 3150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:D-Device D3_4
+L ferris-rescue:D-Device D3_3
 U 1 1 5EF1DFD1
 P 3850 3150
-F 0 "D3_4" V 3896 3070 50  0000 R CNN
+F 0 "D3_3" V 3896 3070 50  0000 R CNN
 F 1 "D" V 3805 3070 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 3850 3150 50  0001 C CNN
 F 3 "~" H 3850 3150 50  0001 C CNN
@@ -713,10 +539,10 @@ Wire Wire Line
 	3150 3300 3850 3300
 Connection ~ 3750 2400
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_5
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_6
 U 1 1 5FD3ADBA
 P 7450 1200
-F 0 "K0_5" H 7450 1433 60  0000 C CNN
+F 0 "K0_6" H 7450 1433 60  0000 C CNN
 F 1 "KEYSW" H 7450 1100 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 7450 1200 60  0001 C CNN
 F 3 "" H 7450 1200 60  0000 C CNN
@@ -724,10 +550,10 @@ F 3 "" H 7450 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D0_5
+L ferris-rescue:D-Device D0_6
 U 1 1 5FD3ADC4
 P 7150 1350
-F 0 "D0_5" V 7196 1270 50  0000 R CNN
+F 0 "D0_6" V 7196 1270 50  0000 R CNN
 F 1 "D" V 7105 1270 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 7150 1350 50  0001 C CNN
 F 3 "~" H 7150 1350 50  0001 C CNN
@@ -743,10 +569,10 @@ row1,0
 Text Label 15200 1000 2    50   ~ 0
 row1,1
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_5
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_6
 U 1 1 5FD3ADD3
 P 7450 1800
-F 0 "K1_5" H 7450 2033 60  0000 C CNN
+F 0 "K1_6" H 7450 2033 60  0000 C CNN
 F 1 "KEYSW" H 7450 1700 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 7450 1800 60  0001 C CNN
 F 3 "" H 7450 1800 60  0000 C CNN
@@ -754,10 +580,10 @@ F 3 "" H 7450 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D1_5
+L ferris-rescue:D-Device D1_6
 U 1 1 5FD3ADDD
 P 7150 1950
-F 0 "D1_5" V 7196 1870 50  0000 R CNN
+F 0 "D1_6" V 7196 1870 50  0000 R CNN
 F 1 "D" V 7105 1870 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 7150 1950 50  0001 C CNN
 F 3 "~" H 7150 1950 50  0001 C CNN
@@ -772,10 +598,10 @@ col6
 Wire Wire Line
 	8450 900  8450 1200
 $Comp
-L ferris-rescue:D-Device D0_6
+L ferris-rescue:D-Device D0_7
 U 1 1 5FD3ADEC
 P 7850 1350
-F 0 "D0_6" V 7896 1270 50  0000 R CNN
+F 0 "D0_7" V 7896 1270 50  0000 R CNN
 F 1 "D" V 7805 1270 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 7850 1350 50  0001 C CNN
 F 3 "~" H 7850 1350 50  0001 C CNN
@@ -785,10 +611,10 @@ $EndComp
 Wire Wire Line
 	7150 1500 7850 1500
 $Comp
-L ferris-rescue:D-Device D1_6
+L ferris-rescue:D-Device D1_7
 U 1 1 5FD3ADF8
 P 7850 1950
-F 0 "D1_6" V 7896 1870 50  0000 R CNN
+F 0 "D1_7" V 7896 1870 50  0000 R CNN
 F 1 "D" V 7805 1870 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 7850 1950 50  0001 C CNN
 F 3 "~" H 7850 1950 50  0001 C CNN
@@ -796,10 +622,10 @@ F 3 "~" H 7850 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_6
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_7
 U 1 1 5FD3AE02
 P 8150 1800
-F 0 "K1_6" H 8150 2033 60  0000 C CNN
+F 0 "K1_7" H 8150 2033 60  0000 C CNN
 F 1 "KEYSW" H 8150 1700 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 8150 1800 60  0001 C CNN
 F 3 "" H 8150 1800 60  0000 C CNN
@@ -811,10 +637,10 @@ Wire Wire Line
 Wire Wire Line
 	7150 2100 7850 2100
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_7
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_8
 U 1 1 5FD3AE0F
 P 8850 1200
-F 0 "K0_7" H 8850 1433 60  0000 C CNN
+F 0 "K0_8" H 8850 1433 60  0000 C CNN
 F 1 "KEYSW" H 8850 1100 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 8850 1200 60  0001 C CNN
 F 3 "" H 8850 1200 60  0000 C CNN
@@ -822,10 +648,10 @@ F 3 "" H 8850 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D0_7
+L ferris-rescue:D-Device D0_8
 U 1 1 5FD3AE19
 P 8550 1350
-F 0 "D0_7" V 8596 1270 50  0000 R CNN
+F 0 "D0_8" V 8596 1270 50  0000 R CNN
 F 1 "D" V 8505 1270 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 8550 1350 50  0001 C CNN
 F 3 "~" H 8550 1350 50  0001 C CNN
@@ -833,10 +659,10 @@ F 3 "~" H 8550 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_6
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_7
 U 1 1 5FD3AE23
 P 8150 1200
-F 0 "K0_6" H 8150 1433 60  0000 C CNN
+F 0 "K0_7" H 8150 1433 60  0000 C CNN
 F 1 "KEYSW" H 8150 1100 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 8150 1200 60  0001 C CNN
 F 3 "" H 8150 1200 60  0000 C CNN
@@ -850,10 +676,10 @@ Wire Wire Line
 	7850 1500 8550 1500
 Connection ~ 7850 1500
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_7
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_8
 U 1 1 5FD3AE31
 P 8850 1800
-F 0 "K1_7" H 8850 2033 60  0000 C CNN
+F 0 "K1_8" H 8850 2033 60  0000 C CNN
 F 1 "KEYSW" H 8850 1700 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 8850 1800 60  0001 C CNN
 F 3 "" H 8850 1800 60  0000 C CNN
@@ -866,10 +692,10 @@ Wire Wire Line
 	9150 1200 9150 1800
 Connection ~ 9150 1200
 $Comp
-L ferris-rescue:D-Device D1_7
+L ferris-rescue:D-Device D1_8
 U 1 1 5FD3AE3E
 P 8550 1950
-F 0 "D1_7" V 8596 1870 50  0000 R CNN
+F 0 "D1_8" V 8596 1870 50  0000 R CNN
 F 1 "D" V 8505 1870 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 8550 1950 50  0001 C CNN
 F 3 "~" H 8550 1950 50  0001 C CNN
@@ -877,10 +703,10 @@ F 3 "~" H 8550 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_5
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_6
 U 1 1 5FD3AE48
 P 7450 2400
-F 0 "K2_5" H 7450 2633 60  0000 C CNN
+F 0 "K2_6" H 7450 2633 60  0000 C CNN
 F 1 "KEYSW" H 7450 2300 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 7450 2400 60  0001 C CNN
 F 3 "" H 7450 2400 60  0000 C CNN
@@ -890,10 +716,10 @@ $EndComp
 Text Label 15200 1125 2    50   ~ 0
 row1,2
 $Comp
-L ferris-rescue:D-Device D2_5
+L ferris-rescue:D-Device D2_6
 U 1 1 5FD3AE53
 P 7150 2550
-F 0 "D2_5" V 7196 2470 50  0000 R CNN
+F 0 "D2_6" V 7196 2470 50  0000 R CNN
 F 1 "D" V 7105 2470 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 7150 2550 50  0001 C CNN
 F 3 "~" H 7150 2550 50  0001 C CNN
@@ -904,10 +730,10 @@ Wire Wire Line
 	7750 1800 7750 2400
 Connection ~ 7750 1800
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_6
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_7
 U 1 1 5FD3AE5F
 P 8150 2400
-F 0 "K2_6" H 8150 2633 60  0000 C CNN
+F 0 "K2_7" H 8150 2633 60  0000 C CNN
 F 1 "KEYSW" H 8150 2300 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 8150 2400 60  0001 C CNN
 F 3 "" H 8150 2400 60  0000 C CNN
@@ -915,10 +741,10 @@ F 3 "" H 8150 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_7
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_8
 U 1 1 5FD3AE69
 P 8850 2400
-F 0 "K2_7" H 8850 2633 60  0000 C CNN
+F 0 "K2_8" H 8850 2633 60  0000 C CNN
 F 1 "KEYSW" H 8850 2300 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 8850 2400 60  0001 C CNN
 F 3 "" H 8850 2400 60  0000 C CNN
@@ -935,10 +761,10 @@ Wire Wire Line
 	7850 2100 8550 2100
 Connection ~ 7850 2100
 $Comp
-L ferris-rescue:D-Device D2_6
+L ferris-rescue:D-Device D2_7
 U 1 1 5FD3AE79
 P 7850 2550
-F 0 "D2_6" V 7896 2470 50  0000 R CNN
+F 0 "D2_7" V 7896 2470 50  0000 R CNN
 F 1 "D" V 7805 2470 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 7850 2550 50  0001 C CNN
 F 3 "~" H 7850 2550 50  0001 C CNN
@@ -946,10 +772,10 @@ F 3 "~" H 7850 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:D-Device D2_7
+L ferris-rescue:D-Device D2_8
 U 1 1 5FD3AE83
 P 8550 2550
-F 0 "D2_7" V 8596 2470 50  0000 R CNN
+F 0 "D2_8" V 8596 2470 50  0000 R CNN
 F 1 "D" V 8505 2470 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 8550 2550 50  0001 C CNN
 F 3 "~" H 8550 2550 50  0001 C CNN
@@ -963,10 +789,10 @@ Connection ~ 7850 2700
 Wire Wire Line
 	7850 2700 8550 2700
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_8
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_9
 U 1 1 5FD3AE92
 P 9550 1200
-F 0 "K0_8" H 9550 1433 60  0000 C CNN
+F 0 "K0_9" H 9550 1433 60  0000 C CNN
 F 1 "KEYSW" H 9550 1100 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 9550 1200 60  0001 C CNN
 F 3 "" H 9550 1200 60  0000 C CNN
@@ -974,10 +800,10 @@ F 3 "" H 9550 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_8
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_9
 U 1 1 5FD3AE9C
 P 9550 1800
-F 0 "K1_8" H 9550 2033 60  0000 C CNN
+F 0 "K1_9" H 9550 2033 60  0000 C CNN
 F 1 "KEYSW" H 9550 1700 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 9550 1800 60  0001 C CNN
 F 3 "" H 9550 1800 60  0000 C CNN
@@ -985,10 +811,10 @@ F 3 "" H 9550 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_8
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_9
 U 1 1 5FD3AEA6
 P 9550 2400
-F 0 "K2_8" H 9550 2633 60  0000 C CNN
+F 0 "K2_9" H 9550 2633 60  0000 C CNN
 F 1 "KEYSW" H 9550 2300 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 9550 2400 60  0001 C CNN
 F 3 "" H 9550 2400 60  0000 C CNN
@@ -996,10 +822,10 @@ F 3 "" H 9550 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D0_8
+L ferris-rescue:D-Device D0_9
 U 1 1 5FD3AEB0
 P 9250 1350
-F 0 "D0_8" V 9296 1270 50  0000 R CNN
+F 0 "D0_9" V 9296 1270 50  0000 R CNN
 F 1 "D" V 9205 1270 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 9250 1350 50  0001 C CNN
 F 3 "~" H 9250 1350 50  0001 C CNN
@@ -1007,10 +833,10 @@ F 3 "~" H 9250 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:D-Device D1_8
+L ferris-rescue:D-Device D1_9
 U 1 1 5FD3AEBA
 P 9250 1950
-F 0 "D1_8" V 9296 1870 50  0000 R CNN
+F 0 "D1_9" V 9296 1870 50  0000 R CNN
 F 1 "D" V 9205 1870 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 9250 1950 50  0001 C CNN
 F 3 "~" H 9250 1950 50  0001 C CNN
@@ -1018,10 +844,10 @@ F 3 "~" H 9250 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:D-Device D2_8
+L ferris-rescue:D-Device D2_9
 U 1 1 5FD3AEC4
 P 9250 2550
-F 0 "D2_8" V 9296 2470 50  0000 R CNN
+F 0 "D2_9" V 9296 2470 50  0000 R CNN
 F 1 "D" V 9205 2470 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 9250 2550 50  0001 C CNN
 F 3 "~" H 9250 2550 50  0001 C CNN
@@ -1029,10 +855,10 @@ F 3 "~" H 9250 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_9
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K0_10
 U 1 1 5FD3AECE
 P 10250 1200
-F 0 "K0_9" H 10250 1433 60  0000 C CNN
+F 0 "K0_10" H 10250 1433 60  0000 C CNN
 F 1 "KEYSW" H 10250 1100 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 10250 1200 60  0001 C CNN
 F 3 "" H 10250 1200 60  0000 C CNN
@@ -1040,10 +866,10 @@ F 3 "" H 10250 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D0_9
+L ferris-rescue:D-Device D0_10
 U 1 1 5FD3AED8
 P 9950 1350
-F 0 "D0_9" V 9996 1270 50  0000 R CNN
+F 0 "D0_10" V 9996 1270 50  0000 R CNN
 F 1 "D" V 9905 1270 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 9950 1350 50  0001 C CNN
 F 3 "~" H 9950 1350 50  0001 C CNN
@@ -1051,10 +877,10 @@ F 3 "~" H 9950 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_9
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_10
 U 1 1 5FD3AEE2
 P 10250 1800
-F 0 "K1_9" H 10250 2033 60  0000 C CNN
+F 0 "K1_10" H 10250 2033 60  0000 C CNN
 F 1 "KEYSW" H 10250 1700 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 10250 1800 60  0001 C CNN
 F 3 "" H 10250 1800 60  0000 C CNN
@@ -1062,10 +888,10 @@ F 3 "" H 10250 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D1_9
+L ferris-rescue:D-Device D1_10
 U 1 1 5FD3AEEC
 P 9950 1950
-F 0 "D1_9" V 9996 1870 50  0000 R CNN
+F 0 "D1_10" V 9996 1870 50  0000 R CNN
 F 1 "D" V 9905 1870 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 9950 1950 50  0001 C CNN
 F 3 "~" H 9950 1950 50  0001 C CNN
@@ -1073,10 +899,10 @@ F 3 "~" H 9950 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_9
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K2_10
 U 1 1 5FD3AEF6
 P 10250 2400
-F 0 "K2_9" H 10250 2633 60  0000 C CNN
+F 0 "K2_10" H 10250 2633 60  0000 C CNN
 F 1 "KEYSW" H 10250 2300 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 10250 2400 60  0001 C CNN
 F 3 "" H 10250 2400 60  0000 C CNN
@@ -1084,10 +910,10 @@ F 3 "" H 10250 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D2_9
+L ferris-rescue:D-Device D2_10
 U 1 1 5FD3AF00
 P 9950 2550
-F 0 "D2_9" V 9996 2470 50  0000 R CNN
+F 0 "D2_10" V 9996 2470 50  0000 R CNN
 F 1 "D" V 9905 2470 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 9950 2550 50  0001 C CNN
 F 3 "~" H 9950 2550 50  0001 C CNN
@@ -1132,17 +958,8 @@ Wire Wire Line
 Wire Wire Line
 	9950 1500 10550 1500
 Connection ~ 9950 1500
-Text Label 4150 7100 0    50   ~ 0
-col5
-Text Label 4150 7000 0    50   ~ 0
-col6
-Text Label 4150 6900 0    50   ~ 0
-col7
-Text Label 4150 6800 0    50   ~ 0
-col8
 Wire Wire Line
 	8550 2700 9250 2700
-NoConn ~ 2950 4800
 NoConn ~ 1550 5700
 NoConn ~ 1550 5800
 Wire Wire Line
@@ -1156,10 +973,10 @@ Wire Wire Line
 Connection ~ 3150 3300
 Connection ~ 8450 2400
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K3_5
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K3_4
 U 1 1 5FD3AF30
 P 7450 3000
-F 0 "K3_5" H 7450 3233 60  0000 C CNN
+F 0 "K3_4" H 7450 3233 60  0000 C CNN
 F 1 "KEYSW" H 7450 2900 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 7450 3000 60  0001 C CNN
 F 3 "" H 7450 3000 60  0000 C CNN
@@ -1167,10 +984,10 @@ F 3 "" H 7450 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D3_5
+L ferris-rescue:D-Device D3_4
 U 1 1 5FD3AF4E
 P 7150 3150
-F 0 "D3_5" V 7196 3070 50  0000 R CNN
+F 0 "D3_4" V 7196 3070 50  0000 R CNN
 F 1 "D" V 7105 3070 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 7150 3150 50  0001 C CNN
 F 3 "~" H 7150 3150 50  0001 C CNN
@@ -1184,10 +1001,10 @@ Wire Wire Line
 Wire Wire Line
 	7750 3000 7750 2400
 $Comp
-L ferris-rescue:D-Device D3_6
+L ferris-rescue:D-Device D3_5
 U 1 1 5FD3AF58
 P 7850 3150
-F 0 "D3_6" V 7896 3070 50  0000 R CNN
+F 0 "D3_5" V 7896 3070 50  0000 R CNN
 F 1 "D" V 7805 3070 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 7850 3150 50  0001 C CNN
 F 3 "~" H 7850 3150 50  0001 C CNN
@@ -1195,10 +1012,10 @@ F 3 "~" H 7850 3150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K3_6
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K3_5
 U 1 1 5FD3AF3A
 P 8150 3000
-F 0 "K3_6" H 8150 3233 60  0000 C CNN
+F 0 "K3_5" H 8150 3233 60  0000 C CNN
 F 1 "KEYSW" H 8150 2900 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 8150 3000 60  0001 C CNN
 F 3 "" H 8150 3000 60  0000 C CNN
@@ -1208,106 +1025,20 @@ $EndComp
 Connection ~ 7750 2400
 Connection ~ 7150 3300
 $Comp
-L ferris-rescue:Crystal_GND24_Small-Device Y1
-U 1 1 5F03D985
-P 2600 4500
-F 0 "Y1" V 2650 4700 50  0000 L CNN
-F 1 "Crystal" V 2550 4600 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 2600 4500 50  0001 C CNN
-F 3 "https://lcsc.com/product-detail/SMD-Crystal-Resonators_Yangxing-Tech-X322516MLB4SI_C13738.html/?href=jlc-SMT" H 2600 4500 50  0001 C CNN
-F 4 "C13738" H 2600 4500 50  0001 C CNN "LCSC Part #"
-	1    2600 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L ferris-rescue:ATmega32U4-AU-MCU_Microchip_ATmega U1
-U 1 1 5F0A0905
-P 3550 5700
-F 0 "U1" V 3450 5700 50  0000 C CNN
-F 1 "ATmega32U4-AU" V 3550 5700 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3550 5700 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3550 5700 50  0001 C CNN
-F 4 "C44854" H 3550 5700 50  0001 C CNN "LCSC Part #"
-	1    3550 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 3900 3550 3900
-Connection ~ 3550 3900
-Wire Wire Line
-	3550 3900 3450 3900
-Wire Wire Line
-	3550 7500 3450 7500
-Wire Wire Line
-	2950 4200 2900 4200
-Connection ~ 2900 4200
-Wire Wire Line
-	2950 4400 2600 4400
-Wire Wire Line
-	2600 4400 2400 4400
-Connection ~ 2600 4400
-Wire Wire Line
-	2400 4600 2600 4600
-Wire Wire Line
-	2950 4600 2600 4600
-Connection ~ 2600 4600
-Wire Wire Line
-	2200 4400 2200 4600
-Wire Wire Line
-	2200 4700 2500 4700
-Wire Wire Line
-	2500 4700 2500 4500
-Connection ~ 2200 4600
-Wire Wire Line
-	2200 4600 2200 4700
-Wire Wire Line
-	2700 4500 2700 4700
-Wire Wire Line
-	2700 4700 2500 4700
-Connection ~ 2500 4700
-$Comp
-L ferris-rescue:VCC-power #PWR0109
+L ferris-rescue:VCC-power #PWR04
 U 1 1 5F35FC78
 P 1550 4600
-F 0 "#PWR0109" H 1550 4450 50  0001 C CNN
+F 0 "#PWR04" H 1550 4450 50  0001 C CNN
 F 1 "VCC" V 1565 4727 50  0000 L CNN
 F 2 "" H 1550 4600 50  0001 C CNN
 F 3 "" H 1550 4600 50  0001 C CNN
 	1    1550 4600
 	1    0    0    -1  
 $EndComp
-Text Label 1850 5300 0    50   ~ 0
+Text Label 1850 5350 0    50   ~ 0
 D+I
-Text Label 1850 5200 0    50   ~ 0
+Text Label 1850 5150 0    50   ~ 0
 D-I
-Text Label 2950 5300 2    50   ~ 0
-D-
-Text Label 2950 5200 2    50   ~ 0
-D+
-Wire Wire Line
-	2050 6000 2150 6000
-Connection ~ 2150 6000
-Wire Wire Line
-	2350 6000 2450 6000
-Connection ~ 2350 6000
-NoConn ~ 4150 4900
-NoConn ~ 4150 6400
-Text Label 4150 4500 0    50   ~ 0
-row0
-Text Label 4150 4400 0    50   ~ 0
-row1
-Text Label 4150 6600 0    50   ~ 0
-row3
-Text Label 4150 6000 0    50   ~ 0
-col0
-Text Label 4150 6100 0    50   ~ 0
-col1
-Text Label 4150 4600 0    50   ~ 0
-col2
-Text Label 4150 4700 0    50   ~ 0
-col3
-Text Label 4150 4800 0    50   ~ 0
-col4
 $Comp
 L ferris-rescue:Polyfuse-Device F1
 U 1 1 5EF6C20F
@@ -1322,151 +1053,37 @@ F 4 "C151162" V 1700 4600 50  0001 C CNN "LCSC Part #"
 $EndComp
 Connection ~ 1550 4600
 $Comp
-L ferris-rescue:+5V-power #PWR0102
+L ferris-rescue:+5V-power #PWR05
 U 1 1 5EF7A4D9
 P 1850 4600
-F 0 "#PWR0102" H 1850 4570 20  0001 C CNN
+F 0 "#PWR05" H 1850 4570 20  0001 C CNN
 F 1 "+5V" H 1865 4758 30  0000 C CNN
 F 2 "" H 1850 4600 60  0000 C CNN
 F 3 "" H 1850 4600 60  0000 C CNN
 	1    1850 4600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4150 5100
 Wire Wire Line
-	1850 4800 1850 4900
-Connection ~ 1850 4900
+	1850 4800 1850 4850
 $Comp
-L ferris-rescue:GND-power #PWR0101
-U 1 1 5F0BBA8B
-P 2200 4700
-F 0 "#PWR0101" H 2200 4750 20  0001 C CNN
-F 1 "GND" H 2250 4650 30  0000 L CNN
-F 2 "" H 2200 4700 60  0000 C CNN
-F 3 "" H 2200 4700 60  0000 C CNN
-	1    2200 4700
-	1    0    0    -1  
-$EndComp
-Connection ~ 2200 4700
-$Comp
-L ferris-rescue:GND-power #PWR0103
-U 1 1 5F0D0230
-P 2300 4200
-F 0 "#PWR0103" H 2300 4250 20  0001 C CNN
-F 1 "GND" H 2350 4150 30  0000 L CNN
-F 2 "" H 2300 4200 60  0000 C CNN
-F 3 "" H 2300 4200 60  0000 C CNN
-	1    2300 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L ferris-rescue:GND-power #PWR0105
-U 1 1 5F0D4D0E
-P 4450 6300
-F 0 "#PWR0105" H 4450 6350 20  0001 C CNN
-F 1 "GND" H 4500 6250 30  0000 L CNN
-F 2 "" H 4450 6300 60  0000 C CNN
-F 3 "" H 4450 6300 60  0000 C CNN
-	1    4450 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L ferris-rescue:GND-power #PWR0108
+L ferris-rescue:GND-power #PWR01
 U 1 1 5F0E4DAA
 P 950 6100
-F 0 "#PWR0108" H 950 6150 20  0001 C CNN
+F 0 "#PWR01" H 950 6150 20  0001 C CNN
 F 1 "GND" H 1000 6050 30  0000 L CNN
 F 2 "" H 950 6100 60  0000 C CNN
 F 3 "" H 950 6100 60  0000 C CNN
 	1    950  6100
 	1    0    0    -1  
 $EndComp
-$Comp
-L ferris-rescue:GND-power #PWR0110
-U 1 1 5F0E6435
-P 3450 7500
-F 0 "#PWR0110" H 3450 7550 20  0001 C CNN
-F 1 "GND" H 3500 7450 30  0000 L CNN
-F 2 "" H 3450 7500 60  0000 C CNN
-F 3 "" H 3450 7500 60  0000 C CNN
-	1    3450 7500
-	1    0    0    -1  
-$EndComp
-Connection ~ 3450 7500
 Wire Wire Line
 	650  6100 950  6100
-$Comp
-L ferris-rescue:GND-power #PWR0111
-U 1 1 5F0EFAA9
-P 2050 6000
-F 0 "#PWR0111" H 2050 6050 20  0001 C CNN
-F 1 "GND" H 2100 5950 30  0000 L CNN
-F 2 "" H 2050 6000 60  0000 C CNN
-F 3 "" H 2050 6000 60  0000 C CNN
-	1    2050 6000
-	1    0    0    -1  
-$EndComp
 Connection ~ 950  6100
 $Comp
-L ferris-rescue:GND-power #PWR0115
-U 1 1 5F0FEF96
-P 2750 5500
-F 0 "#PWR0115" H 2750 5550 20  0001 C CNN
-F 1 "GND" H 2800 5450 30  0000 L CNN
-F 2 "" H 2750 5500 60  0000 C CNN
-F 3 "" H 2750 5500 60  0000 C CNN
-	1    2750 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L ferris-rescue:+5V-power #PWR0104
-U 1 1 5F114C70
-P 2900 3900
-F 0 "#PWR0104" H 2900 3870 20  0001 C CNN
-F 1 "+5V" H 2915 4058 30  0000 C CNN
-F 2 "" H 2900 3900 60  0000 C CNN
-F 3 "" H 2900 3900 60  0000 C CNN
-	1    2900 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L ferris-rescue:+5V-power #PWR0113
-U 1 1 5F115A95
-P 3550 3900
-F 0 "#PWR0113" H 3550 3870 20  0001 C CNN
-F 1 "+5V" H 3565 4058 30  0000 C CNN
-F 2 "" H 3550 3900 60  0000 C CNN
-F 3 "" H 3550 3900 60  0000 C CNN
-	1    3550 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L ferris-rescue:+5V-power #PWR0114
-U 1 1 5F115EB3
-P 2950 5000
-F 0 "#PWR0114" H 2950 4970 20  0001 C CNN
-F 1 "+5V" H 2850 5100 30  0000 C CNN
-F 2 "" H 2950 5000 60  0000 C CNN
-F 3 "" H 2950 5000 60  0000 C CNN
-	1    2950 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L ferris-rescue:+5V-power #PWR0116
-U 1 1 5F116385
-P 2450 6000
-F 0 "#PWR0116" H 2450 5970 20  0001 C CNN
-F 1 "+5V" H 2465 6158 30  0000 C CNN
-F 2 "" H 2450 6000 60  0000 C CNN
-F 3 "" H 2450 6000 60  0000 C CNN
-	1    2450 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L ferris-rescue:PWR_FLAG-power #FLG0101
+L ferris-rescue:PWR_FLAG-power #FLG03
 U 1 1 5F143292
 P 5350 6550
-F 0 "#FLG0101" H 5350 6625 50  0001 C CNN
+F 0 "#FLG03" H 5350 6625 50  0001 C CNN
 F 1 "PWR_FLAG" V 5350 6677 50  0000 L CNN
 F 2 "" H 5350 6550 50  0001 C CNN
 F 3 "~" H 5350 6550 50  0001 C CNN
@@ -1474,10 +1091,10 @@ F 3 "~" H 5350 6550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:PWR_FLAG-power #FLG0102
+L ferris-rescue:PWR_FLAG-power #FLG02
 U 1 1 5F135C56
 P 5350 6400
-F 0 "#FLG0102" H 5350 6475 50  0001 C CNN
+F 0 "#FLG02" H 5350 6475 50  0001 C CNN
 F 1 "PWR_FLAG" V 5350 6527 50  0000 L CNN
 F 2 "" H 5350 6400 50  0001 C CNN
 F 3 "~" H 5350 6400 50  0001 C CNN
@@ -1485,10 +1102,10 @@ F 3 "~" H 5350 6400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:VCC-power #PWR0119
+L ferris-rescue:VCC-power #PWR013
 U 1 1 5F16DF31
 P 5350 6400
-F 0 "#PWR0119" H 5350 6250 50  0001 C CNN
+F 0 "#PWR013" H 5350 6250 50  0001 C CNN
 F 1 "VCC" V 5365 6527 50  0000 L CNN
 F 2 "" H 5350 6400 50  0001 C CNN
 F 3 "" H 5350 6400 50  0001 C CNN
@@ -1496,10 +1113,10 @@ F 3 "" H 5350 6400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ferris-rescue:VDD-power #PWR0122
+L ferris-rescue:VDD-power #PWR014
 U 1 1 5F182963
 P 5350 6550
-F 0 "#PWR0122" H 5350 6400 50  0001 C CNN
+F 0 "#PWR014" H 5350 6400 50  0001 C CNN
 F 1 "VDD" V 5350 6700 50  0000 L CNN
 F 2 "" H 5350 6550 50  0001 C CNN
 F 3 "" H 5350 6550 50  0001 C CNN
@@ -1507,10 +1124,10 @@ F 3 "" H 5350 6550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ferris-rescue:+5V-power #PWR0127
+L ferris-rescue:+5V-power #PWR012
 U 1 1 5F1A1606
 P 5350 6250
-F 0 "#PWR0127" H 5350 6220 20  0001 C CNN
+F 0 "#PWR012" H 5350 6220 20  0001 C CNN
 F 1 "+5V" V 5365 6378 30  0000 L CNN
 F 2 "" H 5350 6250 60  0000 C CNN
 F 3 "" H 5350 6250 60  0000 C CNN
@@ -1518,10 +1135,10 @@ F 3 "" H 5350 6250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ferris-rescue:PWR_FLAG-power #FLG0103
+L ferris-rescue:PWR_FLAG-power #FLG01
 U 1 1 5F1A4574
 P 5350 6250
-F 0 "#FLG0103" H 5350 6325 50  0001 C CNN
+F 0 "#FLG01" H 5350 6325 50  0001 C CNN
 F 1 "PWR_FLAG" V 5350 6377 50  0000 L CNN
 F 2 "" H 5350 6250 50  0001 C CNN
 F 3 "~" H 5350 6250 50  0001 C CNN
@@ -1529,10 +1146,10 @@ F 3 "~" H 5350 6250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:PWR_FLAG-power #FLG0104
+L ferris-rescue:PWR_FLAG-power #FLG05
 U 1 1 5F1B99AF
 P 5350 7100
-F 0 "#FLG0104" H 5350 7175 50  0001 C CNN
+F 0 "#FLG05" H 5350 7175 50  0001 C CNN
 F 1 "PWR_FLAG" V 5350 7227 50  0000 L CNN
 F 2 "" H 5350 7100 50  0001 C CNN
 F 3 "~" H 5350 7100 50  0001 C CNN
@@ -1540,10 +1157,10 @@ F 3 "~" H 5350 7100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:PWR_FLAG-power #FLG0105
+L ferris-rescue:PWR_FLAG-power #FLG06
 U 1 1 5F1BA008
 P 5350 7250
-F 0 "#FLG0105" H 5350 7325 50  0001 C CNN
+F 0 "#FLG06" H 5350 7325 50  0001 C CNN
 F 1 "PWR_FLAG" V 5350 7377 50  0000 L CNN
 F 2 "" H 5350 7250 50  0001 C CNN
 F 3 "~" H 5350 7250 50  0001 C CNN
@@ -1551,10 +1168,10 @@ F 3 "~" H 5350 7250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:VSS-power #PWR0129
+L ferris-rescue:VSS-power #PWR017
 U 1 1 5F1BA2AB
 P 5350 7250
-F 0 "#PWR0129" H 5350 7100 50  0001 C CNN
+F 0 "#PWR017" H 5350 7100 50  0001 C CNN
 F 1 "VSS" H 5350 7400 50  0000 C CNN
 F 2 "" H 5350 7250 50  0001 C CNN
 F 3 "" H 5350 7250 50  0001 C CNN
@@ -1562,10 +1179,10 @@ F 3 "" H 5350 7250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ferris-rescue:GND-power #PWR0128
+L ferris-rescue:GND-power #PWR016
 U 1 1 5F1B9CCF
 P 5350 7100
-F 0 "#PWR0128" H 5350 7150 20  0001 C CNN
+F 0 "#PWR016" H 5350 7150 20  0001 C CNN
 F 1 "GND" V 5350 6900 30  0000 L CNN
 F 2 "" H 5350 7100 60  0000 C CNN
 F 3 "" H 5350 7100 60  0000 C CNN
@@ -1573,33 +1190,10 @@ F 3 "" H 5350 7100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:WS2812B-LED D1
-U 1 1 5F237653
-P 5250 3700
-F 0 "D1" H 5594 3746 50  0000 L CNN
-F 1 "WS2812B" H 5594 3655 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5300 3400 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5350 3325 50  0001 L TNN
-	1    5250 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L ferris-rescue:GND-power #PWR0118
-U 1 1 5F2446EA
-P 5250 4000
-F 0 "#PWR0118" H 5250 4050 20  0001 C CNN
-F 1 "GND" H 5300 3950 30  0000 L CNN
-F 2 "" H 5250 4000 60  0000 C CNN
-F 3 "" H 5250 4000 60  0000 C CNN
-	1    5250 4000
-	1    0    0    -1  
-$EndComp
-NoConn ~ 5550 3700
-$Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K3_2
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K3_1
 U 1 1 5F2A8958
 P 2725 3000
-F 0 "K3_2" H 2725 3233 60  0000 C CNN
+F 0 "K3_1" H 2725 3233 60  0000 C CNN
 F 1 "KEYSW" H 2725 2900 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 2725 3000 60  0001 C CNN
 F 3 "" H 2725 3000 60  0000 C CNN
@@ -1607,10 +1201,10 @@ F 3 "" H 2725 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:D-Device D3_2
+L ferris-rescue:D-Device D3_1
 U 1 1 5F2A9448
 P 2425 3150
-F 0 "D3_2" V 2471 3070 50  0000 R CNN
+F 0 "D3_1" V 2471 3070 50  0000 R CNN
 F 1 "D" V 2380 3070 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 2425 3150 50  0001 C CNN
 F 3 "~" H 2425 3150 50  0001 C CNN
@@ -1626,10 +1220,10 @@ Wire Wire Line
 	3050 3000 3025 3000
 Connection ~ 3050 2400
 $Comp
-L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K3_7
+L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K3_6
 U 1 1 5F2B734E
 P 8850 3000
-F 0 "K3_7" H 8850 3233 60  0000 C CNN
+F 0 "K3_6" H 8850 3233 60  0000 C CNN
 F 1 "KEYSW" H 8850 2900 60  0001 C CNN
 F 2 "MX:MXOnly-1U-NoLED" H 8850 3000 60  0001 C CNN
 F 3 "" H 8850 3000 60  0000 C CNN
@@ -1640,10 +1234,10 @@ Wire Wire Line
 	9150 2400 9150 3000
 Connection ~ 9150 2400
 $Comp
-L ferris-rescue:D-Device D3_7
+L ferris-rescue:D-Device D3_6
 U 1 1 5F2BEF9B
 P 8550 3150
-F 0 "D3_7" V 8596 3070 50  0000 R CNN
+F 0 "D3_6" V 8596 3070 50  0000 R CNN
 F 1 "D" V 8505 3070 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 8550 3150 50  0001 C CNN
 F 3 "~" H 8550 3150 50  0001 C CNN
@@ -1676,13 +1270,7 @@ Wire Wire Line
 	4450 1800 4450 2400
 Connection ~ 4450 1800
 Connection ~ 4450 2400
-Text Label 4150 6700 0    50   ~ 0
-col9
-NoConn ~ 4500 5475
-Text Label 4150 4300 0    50   ~ 0
-row2
-NoConn ~ 4150 4200
-NoConn ~ 15300 3700
+NoConn ~ 13075 3775
 Text Label 15500 1250 0    50   ~ 0
 row1,3
 Text Label 15525 1100 0    50   ~ 0
@@ -1691,25 +1279,6 @@ Text Label 15500 975  0    50   ~ 0
 row1,1
 Text Label 15525 850  0    50   ~ 0
 row1,0
-Wire Wire Line
-	4950 3700 4575 3700
-Wire Wire Line
-	4575 3700 4575 5200
-Wire Wire Line
-	4575 5200 4150 5200
-NoConn ~ 4150 5400
-NoConn ~ 4150 5500
-NoConn ~ 4150 5600
-NoConn ~ 4150 5700
-NoConn ~ 4150 5800
-NoConn ~ 4150 5900
-Wire Wire Line
-	5250 3400 3800 3400
-Wire Wire Line
-	3800 3400 3800 3900
-Wire Wire Line
-	3800 3900 3650 3900
-Connection ~ 3650 3900
 $Comp
 L NUF2221W1T2G:NUF2221W1T2G IC1
 U 1 1 5F2F5E67
@@ -1731,10 +1300,10 @@ D+I
 Text Label 1075 10450 2    50   ~ 0
 D-I
 $Comp
-L ferris-rescue:TLV70012_SOT23-5-Regulator_Linear U2
+L ferris-rescue:TLV70012_SOT23-5-Regulator_Linear U1
 U 1 1 5F305548
 P 3825 9875
-F 0 "U2" H 3825 10217 50  0000 C CNN
+F 0 "U1" H 3825 10217 50  0000 C CNN
 F 1 "TLV70012_SOT23-5" H 3825 10126 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3825 10200 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv700.pdf" H 3825 9925 50  0001 C CNN
@@ -1742,10 +1311,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/tlv700.pdf" H 3825 9925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:+5V-power #PWR0106
+L ferris-rescue:+5V-power #PWR07
 U 1 1 5F308B1A
 P 3200 9625
-F 0 "#PWR0106" H 3200 9595 20  0001 C CNN
+F 0 "#PWR07" H 3200 9595 20  0001 C CNN
 F 1 "+5V" V 3215 9753 30  0000 L CNN
 F 2 "" H 3200 9625 60  0000 C CNN
 F 3 "" H 3200 9625 60  0000 C CNN
@@ -1753,10 +1322,10 @@ F 3 "" H 3200 9625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:C_Small-Device C9
+L ferris-rescue:C_Small-Device C1
 U 1 1 5F3097C9
 P 3200 10250
-F 0 "C9" V 3100 10200 50  0000 L CNN
+F 0 "C1" V 3100 10200 50  0000 L CNN
 F 1 "1u" V 3300 10150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3200 10250 50  0001 C CNN
 F 3 "~" H 3200 10250 50  0001 C CNN
@@ -1765,10 +1334,10 @@ F 4 "C49678" V 3200 10250 50  0001 C CNN "LCSC Part #"
 	-1   0    0    1   
 $EndComp
 $Comp
-L ferris-rescue:C_Small-Device C10
+L ferris-rescue:C_Small-Device C2
 U 1 1 5F30A45A
 P 4500 10225
-F 0 "C10" V 4400 10175 50  0000 L CNN
+F 0 "C2" V 4400 10175 50  0000 L CNN
 F 1 "1u" V 4600 10125 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4500 10225 50  0001 C CNN
 F 3 "~" H 4500 10225 50  0001 C CNN
@@ -1777,10 +1346,10 @@ F 4 "C49678" V 4500 10225 50  0001 C CNN "LCSC Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:GND-power #PWR0112
+L ferris-rescue:GND-power #PWR08
 U 1 1 5F30ABDF
 P 3825 10725
-F 0 "#PWR0112" H 3825 10775 20  0001 C CNN
+F 0 "#PWR08" H 3825 10775 20  0001 C CNN
 F 1 "GND" V 3825 10525 30  0000 L CNN
 F 2 "" H 3825 10725 60  0000 C CNN
 F 3 "" H 3825 10725 60  0000 C CNN
@@ -1788,10 +1357,10 @@ F 3 "" H 3825 10725 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:+3.3V-power #PWR0117
+L ferris-rescue:+3.3V-power #PWR015
 U 1 1 5F30C6C4
 P 5350 6775
-F 0 "#PWR0117" H 5350 6625 50  0001 C CNN
+F 0 "#PWR015" H 5350 6625 50  0001 C CNN
 F 1 "+3.3V" V 5365 6903 50  0000 L CNN
 F 2 "" H 5350 6775 50  0001 C CNN
 F 3 "" H 5350 6775 50  0001 C CNN
@@ -1799,10 +1368,10 @@ F 3 "" H 5350 6775 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ferris-rescue:PWR_FLAG-power #FLG0106
+L ferris-rescue:PWR_FLAG-power #FLG04
 U 1 1 5F30D7CC
 P 5350 6775
-F 0 "#FLG0106" H 5350 6850 50  0001 C CNN
+F 0 "#FLG04" H 5350 6850 50  0001 C CNN
 F 1 "PWR_FLAG" V 5350 6902 50  0000 L CNN
 F 2 "" H 5350 6775 50  0001 C CNN
 F 3 "~" H 5350 6775 50  0001 C CNN
@@ -1810,10 +1379,10 @@ F 3 "~" H 5350 6775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:+3.3V-power #PWR0120
+L ferris-rescue:+3.3V-power #PWR09
 U 1 1 5F30EBCB
 P 4500 9625
-F 0 "#PWR0120" H 4500 9475 50  0001 C CNN
+F 0 "#PWR09" H 4500 9475 50  0001 C CNN
 F 1 "+3.3V" H 4515 9798 50  0000 C CNN
 F 2 "" H 4500 9625 50  0001 C CNN
 F 3 "" H 4500 9625 50  0001 C CNN
@@ -1857,10 +1426,10 @@ D+
 Text Label 1875 10450 0    50   ~ 0
 D-
 $Comp
-L ferris-rescue:+3.3V-power #PWR0121
+L ferris-rescue:+3.3V-power #PWR02
 U 1 1 5F335F51
 P 1075 10150
-F 0 "#PWR0121" H 1075 10000 50  0001 C CNN
+F 0 "#PWR02" H 1075 10000 50  0001 C CNN
 F 1 "+3.3V" V 1090 10278 50  0000 L CNN
 F 2 "" H 1075 10150 50  0001 C CNN
 F 3 "" H 1075 10150 50  0001 C CNN
@@ -1868,10 +1437,10 @@ F 3 "" H 1075 10150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ferris-rescue:GND-power #PWR0123
+L ferris-rescue:GND-power #PWR03
 U 1 1 5F336B78
 P 1075 10650
-F 0 "#PWR0123" H 1075 10700 20  0001 C CNN
+F 0 "#PWR03" H 1075 10700 20  0001 C CNN
 F 1 "GND" V 1075 10450 30  0000 L CNN
 F 2 "" H 1075 10650 60  0000 C CNN
 F 3 "" H 1075 10650 60  0000 C CNN
@@ -1879,10 +1448,10 @@ F 3 "" H 1075 10650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ferris-rescue:STM32F303CBTx-MCU_ST_STM32F3 U3
+L ferris-rescue:STM32F303CBTx-MCU_ST_STM32F3 U2
 U 1 1 5F2CE539
 P 10825 5425
-F 0 "U3" H 10825 5675 50  0000 C CNN
+F 0 "U2" H 10825 5675 50  0000 C CNN
 F 1 "STM32F303CBTx" H 10825 5525 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 10225 4025 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00058181.pdf" H 10825 5425 50  0001 C CNN
@@ -1890,10 +1459,10 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:+3.3V-power #PWR0124
+L ferris-rescue:+3.3V-power #PWR027
 U 1 1 5F2D5F54
 P 10825 3500
-F 0 "#PWR0124" H 10825 3350 50  0001 C CNN
+F 0 "#PWR027" H 10825 3350 50  0001 C CNN
 F 1 "+3.3V" H 10840 3673 50  0000 C CNN
 F 2 "" H 10825 3500 50  0001 C CNN
 F 3 "" H 10825 3500 50  0001 C CNN
@@ -1924,10 +1493,10 @@ Wire Wire Line
 	10625 3650 10725 3650
 Connection ~ 10725 3650
 $Comp
-L ferris-rescue:GND-power #PWR0125
+L ferris-rescue:GND-power #PWR026
 U 1 1 5F30895E
 P 10750 7400
-F 0 "#PWR0125" H 10750 7450 20  0001 C CNN
+F 0 "#PWR026" H 10750 7450 20  0001 C CNN
 F 1 "GND" V 10750 7200 30  0000 L CNN
 F 2 "" H 10750 7400 60  0000 C CNN
 F 3 "" H 10750 7400 60  0000 C CNN
@@ -1954,10 +1523,10 @@ Connection ~ 10825 7225
 Wire Wire Line
 	10825 7225 10750 7225
 $Comp
-L ferris-rescue:SW_PUSH-keyboard_parts-ferris-rescue SW2
+L ferris-rescue:SW_PUSH-keyboard_parts-ferris-rescue SW1
 U 1 1 5F33508A
 P 8650 4325
-F 0 "SW2" H 8650 4325 50  0000 C CNN
+F 0 "SW1" H 8650 4325 50  0000 C CNN
 F 1 "SW_PUSH" H 8650 4475 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 8650 4325 60  0001 C CNN
 F 3 "" H 8650 4325 60  0001 C CNN
@@ -1968,10 +1537,10 @@ $EndComp
 Wire Wire Line
 	10125 4325 9000 4325
 $Comp
-L ferris-rescue:+3.3V-power #PWR0126
+L ferris-rescue:+3.3V-power #PWR023
 U 1 1 5F346246
 P 8350 4025
-F 0 "#PWR0126" H 8350 3875 50  0001 C CNN
+F 0 "#PWR023" H 8350 3875 50  0001 C CNN
 F 1 "+3.3V" H 8365 4198 50  0000 C CNN
 F 2 "" H 8350 4025 50  0001 C CNN
 F 3 "" H 8350 4025 50  0001 C CNN
@@ -1981,10 +1550,10 @@ $EndComp
 Wire Wire Line
 	8350 4025 8350 4325
 $Comp
-L ferris-rescue:R-Device R7
+L ferris-rescue:R-Device R5
 U 1 1 5F355C69
 P 9000 4475
-F 0 "R7" V 8900 4475 50  0000 C CNN
+F 0 "R5" V 8900 4475 50  0000 C CNN
 F 1 "10k" V 9000 4475 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8930 4475 50  0001 C CNN
 F 3 "~" H 9000 4475 50  0001 C CNN
@@ -1996,10 +1565,10 @@ Connection ~ 9000 4325
 Wire Wire Line
 	9000 4325 8950 4325
 $Comp
-L ferris-rescue:GND-power #PWR0130
+L ferris-rescue:GND-power #PWR024
 U 1 1 5F359ECB
 P 9000 4725
-F 0 "#PWR0130" H 9000 4775 20  0001 C CNN
+F 0 "#PWR024" H 9000 4775 20  0001 C CNN
 F 1 "GND" V 9000 4525 30  0000 L CNN
 F 2 "" H 9000 4725 60  0000 C CNN
 F 3 "" H 9000 4725 60  0000 C CNN
@@ -2009,10 +1578,10 @@ $EndComp
 Wire Wire Line
 	9000 4625 9000 4725
 $Comp
-L ferris-rescue:Crystal_GND24-Device Y2
+L ferris-rescue:Crystal_GND24-Device Y1
 U 1 1 5F3648C6
 P 6800 8925
-F 0 "Y2" H 6994 8971 50  0000 L CNN
+F 0 "Y1" H 6994 8971 50  0000 L CNN
 F 1 "8MHz" H 6994 8880 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" H 6800 8925 50  0001 C CNN
 F 3 "~" H 6800 8925 50  0001 C CNN
@@ -2020,10 +1589,10 @@ F 3 "~" H 6800 8925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:C_Small-Device C11
+L ferris-rescue:C_Small-Device C6
 U 1 1 5F388BCB
 P 6300 9250
-F 0 "C11" V 6350 9100 50  0000 L CNN
+F 0 "C6" V 6350 9100 50  0000 L CNN
 F 1 "30p" V 6250 9050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6300 9250 50  0001 C CNN
 F 3 "~" H 6300 9250 50  0001 C CNN
@@ -2031,10 +1600,10 @@ F 3 "~" H 6300 9250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ferris-rescue:C_Small-Device C12
+L ferris-rescue:C_Small-Device C10
 U 1 1 5F3901A1
 P 7375 9250
-F 0 "C12" V 7425 9100 50  0000 L CNN
+F 0 "C10" V 7425 9100 50  0000 L CNN
 F 1 "30p" V 7325 9050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7375 9250 50  0001 C CNN
 F 3 "~" H 7375 9250 50  0001 C CNN
@@ -2042,10 +1611,10 @@ F 3 "~" H 7375 9250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ferris-rescue:GND-power #PWR0131
+L ferris-rescue:GND-power #PWR020
 U 1 1 5F391618
 P 6300 9600
-F 0 "#PWR0131" H 6300 9650 20  0001 C CNN
+F 0 "#PWR020" H 6300 9650 20  0001 C CNN
 F 1 "GND" V 6300 9400 30  0000 L CNN
 F 2 "" H 6300 9600 60  0000 C CNN
 F 3 "" H 6300 9600 60  0000 C CNN
@@ -2053,10 +1622,10 @@ F 3 "" H 6300 9600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:GND-power #PWR0132
+L ferris-rescue:GND-power #PWR022
 U 1 1 5F392713
 P 7375 9625
-F 0 "#PWR0132" H 7375 9675 20  0001 C CNN
+F 0 "#PWR022" H 7375 9675 20  0001 C CNN
 F 1 "GND" V 7375 9425 30  0000 L CNN
 F 2 "" H 7375 9625 60  0000 C CNN
 F 3 "" H 7375 9625 60  0000 C CNN
@@ -2064,10 +1633,10 @@ F 3 "" H 7375 9625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:GND-power #PWR0133
+L ferris-rescue:GND-power #PWR021
 U 1 1 5F392D31
 P 6800 9400
-F 0 "#PWR0133" H 6800 9450 20  0001 C CNN
+F 0 "#PWR021" H 6800 9450 20  0001 C CNN
 F 1 "GND" V 6800 9200 30  0000 L CNN
 F 2 "" H 6800 9400 60  0000 C CNN
 F 3 "" H 6800 9400 60  0000 C CNN
@@ -2134,10 +1703,10 @@ Wire Wire Line
 Wire Wire Line
 	10125 3750 9750 3750
 $Comp
-L ferris-rescue:C_Small-Device C13
+L ferris-rescue:C_Small-Device C11
 U 1 1 5F35F244
 P 9750 3850
-F 0 "C13" V 9650 3800 50  0000 L CNN
+F 0 "C11" V 9650 3800 50  0000 L CNN
 F 1 "100n" V 9850 3750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 3850 50  0001 C CNN
 F 3 "~" H 9750 3850 50  0001 C CNN
@@ -2146,10 +1715,10 @@ F 4 "C49678" V 9750 3850 50  0001 C CNN "LCSC Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:GND-power #PWR0134
+L ferris-rescue:GND-power #PWR025
 U 1 1 5F397A3F
 P 9750 3950
-F 0 "#PWR0134" H 9750 4000 20  0001 C CNN
+F 0 "#PWR025" H 9750 4000 20  0001 C CNN
 F 1 "GND" V 9750 3750 30  0000 L CNN
 F 2 "" H 9750 3950 60  0000 C CNN
 F 3 "" H 9750 3950 60  0000 C CNN
@@ -2157,10 +1726,10 @@ F 3 "" H 9750 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:+3.3V-power #PWR?
+L ferris-rescue:+3.3V-power #PWR010
 U 1 1 5F491F96
 P 5300 10375
-F 0 "#PWR?" H 5300 10225 50  0001 C CNN
+F 0 "#PWR010" H 5300 10225 50  0001 C CNN
 F 1 "+3.3V" H 5315 10548 50  0000 C CNN
 F 2 "" H 5300 10375 50  0001 C CNN
 F 3 "" H 5300 10375 50  0001 C CNN
@@ -2168,10 +1737,10 @@ F 3 "" H 5300 10375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:+3.3V-power #PWR?
+L ferris-rescue:+3.3V-power #PWR018
 U 1 1 5F492655
 P 6150 10400
-F 0 "#PWR?" H 6150 10250 50  0001 C CNN
+F 0 "#PWR018" H 6150 10250 50  0001 C CNN
 F 1 "+3.3V" H 6165 10573 50  0000 C CNN
 F 2 "" H 6150 10400 50  0001 C CNN
 F 3 "" H 6150 10400 50  0001 C CNN
@@ -2179,10 +1748,10 @@ F 3 "" H 6150 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:GND-power #PWR?
+L ferris-rescue:GND-power #PWR011
 U 1 1 5F4928A2
 P 5300 10750
-F 0 "#PWR?" H 5300 10800 20  0001 C CNN
+F 0 "#PWR011" H 5300 10800 20  0001 C CNN
 F 1 "GND" V 5300 10550 30  0000 L CNN
 F 2 "" H 5300 10750 60  0000 C CNN
 F 3 "" H 5300 10750 60  0000 C CNN
@@ -2190,10 +1759,10 @@ F 3 "" H 5300 10750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:GND-power #PWR?
+L ferris-rescue:GND-power #PWR019
 U 1 1 5F492B9C
 P 6150 10750
-F 0 "#PWR?" H 6150 10800 20  0001 C CNN
+F 0 "#PWR019" H 6150 10800 20  0001 C CNN
 F 1 "GND" V 6150 10550 30  0000 L CNN
 F 2 "" H 6150 10750 60  0000 C CNN
 F 3 "" H 6150 10750 60  0000 C CNN
@@ -2201,10 +1770,10 @@ F 3 "" H 6150 10750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ferris-rescue:C_Small-Device C?
+L ferris-rescue:C_Small-Device C3
 U 1 1 5F493E8A
 P 5300 10575
-F 0 "C?" H 5150 10500 50  0000 C BNN
+F 0 "C3" H 5150 10500 50  0000 C BNN
 F 1 "1u" H 5075 10625 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5300 10575 50  0001 C CNN
 F 3 "~" H 5300 10575 50  0001 C CNN
@@ -2212,10 +1781,10 @@ F 3 "~" H 5300 10575 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ferris-rescue:C_Small-Device C?
+L ferris-rescue:C_Small-Device C4
 U 1 1 5F495876
 P 5650 10575
-F 0 "C?" H 5500 10500 50  0000 C BNN
+F 0 "C4" H 5500 10500 50  0000 C BNN
 F 1 "10n" H 5425 10625 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 10575 50  0001 C CNN
 F 3 "~" H 5650 10575 50  0001 C CNN
@@ -2223,10 +1792,10 @@ F 3 "~" H 5650 10575 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ferris-rescue:C_Small-Device C?
+L ferris-rescue:C_Small-Device C5
 U 1 1 5F495EE0
 P 6150 10575
-F 0 "C?" H 6000 10500 50  0000 C BNN
+F 0 "C5" H 6000 10500 50  0000 C BNN
 F 1 "4.7u" H 5925 10625 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 10575 50  0001 C CNN
 F 3 "~" H 6150 10575 50  0001 C CNN
@@ -2234,10 +1803,10 @@ F 3 "~" H 6150 10575 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ferris-rescue:C_Small-Device C?
+L ferris-rescue:C_Small-Device C7
 U 1 1 5F496832
 P 6475 10575
-F 0 "C?" H 6325 10500 50  0000 C BNN
+F 0 "C7" H 6325 10500 50  0000 C BNN
 F 1 "100n" H 6250 10625 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6475 10575 50  0001 C CNN
 F 3 "~" H 6475 10575 50  0001 C CNN
@@ -2245,10 +1814,10 @@ F 3 "~" H 6475 10575 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ferris-rescue:C_Small-Device C?
+L ferris-rescue:C_Small-Device C8
 U 1 1 5F496C31
 P 6775 10575
-F 0 "C?" H 6625 10500 50  0000 C BNN
+F 0 "C8" H 6625 10500 50  0000 C BNN
 F 1 "100n" H 6550 10625 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6775 10575 50  0001 C CNN
 F 3 "~" H 6775 10575 50  0001 C CNN
@@ -2256,10 +1825,10 @@ F 3 "~" H 6775 10575 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ferris-rescue:C_Small-Device C?
+L ferris-rescue:C_Small-Device C9
 U 1 1 5F496E51
 P 7075 10575
-F 0 "C?" H 6925 10500 50  0000 C BNN
+F 0 "C9" H 6925 10500 50  0000 C BNN
 F 1 "100n" H 6850 10625 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7075 10575 50  0001 C CNN
 F 3 "~" H 7075 10575 50  0001 C CNN
@@ -2324,4 +1893,174 @@ Wire Wire Line
 	6775 10725 6475 10725
 Text Notes 6325 11125 2    50   ~ 0
 Decoupling capacitors
+$Comp
+L Connector:Conn_01x05_Male J2
+U 1 1 5F50764B
+P 13000 2325
+F 0 "J2" H 13108 2706 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 13108 2615 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 13000 2325 50  0001 C CNN
+F 3 "~" H 13000 2325 50  0001 C CNN
+	1    13000 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L ferris-rescue:+3.3V-power #PWR031
+U 1 1 5F509896
+P 13575 2525
+F 0 "#PWR031" H 13575 2375 50  0001 C CNN
+F 1 "+3.3V" H 13590 2698 50  0000 C CNN
+F 2 "" H 13575 2525 50  0001 C CNN
+F 3 "" H 13575 2525 50  0001 C CNN
+	1    13575 2525
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13575 2525 13200 2525
+Text Label 13675 2125 0    50   ~ 0
+SWD_IO
+Wire Wire Line
+	13675 2125 13200 2125
+Text Label 11750 6525 0    50   ~ 0
+SWD_IO
+Wire Wire Line
+	11750 6525 11425 6525
+Text Label 11775 5525 0    50   ~ 0
+row3
+Wire Wire Line
+	11775 5525 11425 5525
+Wire Wire Line
+	11425 5625 11775 5625
+Wire Wire Line
+	11425 5725 11775 5725
+Wire Wire Line
+	11425 5825 11775 5825
+Text Label 11775 5625 0    50   ~ 0
+row2
+Text Label 11775 5725 0    50   ~ 0
+row1
+Text Label 11775 5825 0    50   ~ 0
+row0
+Wire Wire Line
+	11425 6025 11775 6025
+Wire Wire Line
+	11425 6125 11775 6125
+Wire Wire Line
+	11425 6225 11775 6225
+Text Label 11775 6025 0    50   ~ 0
+col1
+Text Label 11775 6125 0    50   ~ 0
+col0
+Text Label 11775 6225 0    50   ~ 0
+col5
+$Comp
+L ferris-rescue:WS2812B-LED D1
+U 1 1 5F58B391
+P 12775 3775
+F 0 "D1" H 13119 3821 50  0000 L CNN
+F 1 "WS2812B" H 13119 3730 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12825 3475 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12875 3400 50  0001 L TNN
+	1    12775 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L ferris-rescue:+5V-power #PWR028
+U 1 1 5F590D7E
+P 12775 3475
+F 0 "#PWR028" H 12775 3445 20  0001 C CNN
+F 1 "+5V" V 12790 3603 30  0000 L CNN
+F 2 "" H 12775 3475 60  0000 C CNN
+F 3 "" H 12775 3475 60  0000 C CNN
+	1    12775 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L ferris-rescue:GND-power #PWR029
+U 1 1 5F5941D2
+P 12775 4075
+F 0 "#PWR029" H 12775 4125 20  0001 C CNN
+F 1 "GND" V 12775 3875 30  0000 L CNN
+F 2 "" H 12775 4075 60  0000 C CNN
+F 3 "" H 12775 4075 60  0000 C CNN
+	1    12775 4075
+	1    0    0    -1  
+$EndComp
+Text Label 12475 3775 2    50   ~ 0
+LAYER_LED
+Text Label 9750 6725 2    50   ~ 0
+col2
+Wire Wire Line
+	9750 6725 10125 6725
+Wire Wire Line
+	10125 6625 9750 6625
+Wire Wire Line
+	10125 6525 9750 6525
+Wire Wire Line
+	10125 6125 9750 6125
+Text Label 9750 6625 2    50   ~ 0
+col3
+Text Label 9750 6525 2    50   ~ 0
+col4
+Text Label 9750 6125 2    50   ~ 0
+col6
+Text Label 9750 5825 2    50   ~ 0
+col7
+Wire Wire Line
+	9750 5825 10125 5825
+Wire Wire Line
+	10125 5725 9750 5725
+Wire Wire Line
+	10125 5625 9750 5625
+Text Label 9750 5725 2    50   ~ 0
+col8
+Text Label 9750 5625 2    50   ~ 0
+col9
+Text Label 9750 3550 2    50   ~ 0
+NRST
+Wire Wire Line
+	9750 3750 9750 3550
+Connection ~ 9750 3750
+Wire Wire Line
+	13675 2425 13200 2425
+Text Label 13675 2425 0    50   ~ 0
+NRST
+$Comp
+L ferris-rescue:GND-power #PWR030
+U 1 1 5F60C062
+P 13575 2225
+F 0 "#PWR030" H 13575 2275 20  0001 C CNN
+F 1 "GND" V 13575 2025 30  0000 L CNN
+F 2 "" H 13575 2225 60  0000 C CNN
+F 3 "" H 13575 2225 60  0000 C CNN
+	1    13575 2225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13200 2225 13575 2225
+Wire Wire Line
+	13675 2325 13200 2325
+Text Label 13675 2325 0    50   ~ 0
+SWCLK
+Text Label 11750 6625 0    50   ~ 0
+SWCLK
+Wire Wire Line
+	11750 6625 11425 6625
+Wire Wire Line
+	1550 5150 1850 5150
+Connection ~ 1550 5150
+Wire Wire Line
+	1550 5150 1550 5100
+Wire Wire Line
+	1850 5350 1550 5350
+Connection ~ 1550 5350
+Wire Wire Line
+	1550 5350 1550 5300
+Wire Wire Line
+	1850 4850 2350 4850
+Wire Wire Line
+	2350 4850 2350 4875
+Connection ~ 1850 4850
+Wire Wire Line
+	1850 4850 1850 4900
 $EndSCHEMATC
