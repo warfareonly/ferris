@@ -1,0 +1,3 @@
+[submodule "lib/steamvan"]
+	path = lib/steamvan
+	url = https://github.com/jmdaly/steamvan.git

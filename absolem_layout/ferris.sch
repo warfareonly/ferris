@@ -738,9 +738,9 @@ Text Label 7750 900  0    50   ~ 0
 col5
 Wire Wire Line
 	7750 900  7750 1200
-Text Label 6750 875  2    50   ~ 0
+Text Label 15200 875  2    50   ~ 0
 row1,0
-Text Label 6750 1000 2    50   ~ 0
+Text Label 15200 1000 2    50   ~ 0
 row1,1
 $Comp
 L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_5
@@ -887,7 +887,7 @@ F 3 "" H 7450 2400 60  0000 C CNN
 	1    7450 2400
 	1    0    0    -1  
 $EndComp
-Text Label 6750 1125 2    50   ~ 0
+Text Label 15200 1125 2    50   ~ 0
 row1,2
 $Comp
 L Device:D D2_5
@@ -1277,9 +1277,9 @@ F 3 "" H 1550 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1850 5300 0    50   ~ 0
-D+
+D+I
 Text Label 1850 5200 0    50   ~ 0
-D-
+D-I
 Text Label 2950 5300 2    50   ~ 0
 D-
 Text Label 2950 5200 2    50   ~ 0
@@ -1583,10 +1583,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5350 3325 50  0001 
 	1    5250 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5250 3400 3550 3400
-Wire Wire Line
-	3550 3400 3550 3900
 $Comp
 L power:GND #PWR0118
 U 1 1 5F2446EA
@@ -1657,7 +1653,7 @@ $EndComp
 Wire Wire Line
 	7850 3300 8550 3300
 Connection ~ 7850 3300
-Text Label 6750 1250 2    50   ~ 0
+Text Label 15200 1250 2    50   ~ 0
 row1,3
 Wire Wire Line
 	3850 2700 7150 2700
@@ -1687,13 +1683,13 @@ Text Label 4150 4300 0    50   ~ 0
 row0,2
 NoConn ~ 4150 4200
 NoConn ~ 15300 3700
-Text Label 9550 5950 0    50   ~ 0
+Text Label 15500 1250 0    50   ~ 0
 row1,3
-Text Label 9575 5800 0    50   ~ 0
+Text Label 15525 1100 0    50   ~ 0
 row1,2
-Text Label 9550 5675 0    50   ~ 0
+Text Label 15500 975  0    50   ~ 0
 row1,1
-Text Label 9575 5550 0    50   ~ 0
+Text Label 15525 850  0    50   ~ 0
 row1,0
 Wire Wire Line
 	4950 3700 4575 3700
@@ -1707,4 +1703,179 @@ NoConn ~ 4150 5600
 NoConn ~ 4150 5700
 NoConn ~ 4150 5800
 NoConn ~ 4150 5900
+Wire Wire Line
+	5250 3400 3800 3400
+Wire Wire Line
+	3800 3400 3800 3900
+Wire Wire Line
+	3800 3900 3650 3900
+Connection ~ 3650 3900
+$Comp
+L NUF2221W1T2G:NUF2221W1T2G IC?
+U 1 1 5F2F5E67
+P 1475 10250
+F 0 "IC?" H 1475 10250 50  0001 L BNN
+F 1 "NUF2221W1T2G" H 1475 10250 50  0001 L BNN
+F 2 "SOT-363" H 1475 10250 50  0001 L BNN
+F 3 "Good" H 1475 10250 50  0001 L BNN
+F 4 "SOT-363 ON Semiconductor" H 1475 10250 50  0001 L BNN "Field4"
+F 5 "NUF2221W1T2G" H 1475 10250 50  0001 L BNN "Field5"
+F 6 "0.27 USD" H 1475 10250 50  0001 L BNN "Field6"
+F 7 "NUF2221W1T2G Series 8 V USB Upstream Terminator with ESD Protection - SC-88" H 1475 10250 50  0001 L BNN "Field7"
+F 8 "ON Semiconductor" H 1475 10250 50  0001 L BNN "Field8"
+	1    1475 10250
+	1    0    0    -1  
+$EndComp
+Text Label 1075 10350 2    50   ~ 0
+D+I
+Text Label 1075 10450 2    50   ~ 0
+D-I
+$Comp
+L Regulator_Linear:TLV70012_SOT23-5 U?
+U 1 1 5F305548
+P 3825 9875
+F 0 "U?" H 3825 10217 50  0000 C CNN
+F 1 "TLV70012_SOT23-5" H 3825 10126 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3825 10200 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv700.pdf" H 3825 9925 50  0001 C CNN
+	1    3825 9875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F308B1A
+P 3200 9625
+F 0 "#PWR?" H 3200 9595 20  0001 C CNN
+F 1 "+5V" V 3215 9753 30  0000 L CNN
+F 2 "" H 3200 9625 60  0000 C CNN
+F 3 "" H 3200 9625 60  0000 C CNN
+	1    3200 9625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F3097C9
+P 3200 10250
+F 0 "C?" V 3100 10200 50  0000 L CNN
+F 1 "1u" V 3300 10150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3200 10250 50  0001 C CNN
+F 3 "~" H 3200 10250 50  0001 C CNN
+F 4 "C49678" V 3200 10250 50  0001 C CNN "LCSC Part #"
+	1    3200 10250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F30A45A
+P 4500 10225
+F 0 "C?" V 4400 10175 50  0000 L CNN
+F 1 "1u" V 4600 10125 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4500 10225 50  0001 C CNN
+F 3 "~" H 4500 10225 50  0001 C CNN
+F 4 "C49678" V 4500 10225 50  0001 C CNN "LCSC Part #"
+	1    4500 10225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F30ABDF
+P 3825 10725
+F 0 "#PWR?" H 3825 10775 20  0001 C CNN
+F 1 "GND" V 3825 10525 30  0000 L CNN
+F 2 "" H 3825 10725 60  0000 C CNN
+F 3 "" H 3825 10725 60  0000 C CNN
+	1    3825 10725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F30C6C4
+P 5350 6775
+F 0 "#PWR?" H 5350 6625 50  0001 C CNN
+F 1 "+3.3V" V 5365 6903 50  0000 L CNN
+F 2 "" H 5350 6775 50  0001 C CNN
+F 3 "" H 5350 6775 50  0001 C CNN
+	1    5350 6775
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5F30D7CC
+P 5350 6775
+F 0 "#FLG?" H 5350 6850 50  0001 C CNN
+F 1 "PWR_FLAG" V 5350 6902 50  0000 L CNN
+F 2 "" H 5350 6775 50  0001 C CNN
+F 3 "~" H 5350 6775 50  0001 C CNN
+	1    5350 6775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F30EBCB
+P 4500 9625
+F 0 "#PWR?" H 4500 9475 50  0001 C CNN
+F 1 "+3.3V" H 4515 9798 50  0000 C CNN
+F 2 "" H 4500 9625 50  0001 C CNN
+F 3 "" H 4500 9625 50  0001 C CNN
+	1    4500 9625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 10175 3825 10500
+Wire Wire Line
+	3200 10350 3200 10500
+Wire Wire Line
+	3200 10500 3825 10500
+Connection ~ 3825 10500
+Wire Wire Line
+	3825 10500 3825 10725
+Wire Wire Line
+	4500 10325 4500 10500
+Wire Wire Line
+	4500 10500 3825 10500
+Wire Wire Line
+	4500 9625 4500 9775
+Wire Wire Line
+	4125 9775 4500 9775
+Connection ~ 4500 9775
+Wire Wire Line
+	4500 9775 4500 10125
+Wire Wire Line
+	3525 9775 3200 9775
+Wire Wire Line
+	3200 9625 3200 9775
+Connection ~ 3200 9775
+Wire Wire Line
+	3200 9775 3200 9875
+Wire Wire Line
+	3525 9875 3200 9875
+Connection ~ 3200 9875
+Wire Wire Line
+	3200 9875 3200 10150
+Text Label 1875 10350 0    50   ~ 0
+D+
+Text Label 1875 10450 0    50   ~ 0
+D-
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F335F51
+P 1075 10150
+F 0 "#PWR?" H 1075 10000 50  0001 C CNN
+F 1 "+3.3V" V 1090 10278 50  0000 L CNN
+F 2 "" H 1075 10150 50  0001 C CNN
+F 3 "" H 1075 10150 50  0001 C CNN
+	1    1075 10150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F336B78
+P 1075 10650
+F 0 "#PWR?" H 1075 10700 20  0001 C CNN
+F 1 "GND" V 1075 10450 30  0000 L CNN
+F 2 "" H 1075 10650 60  0000 C CNN
+F 3 "" H 1075 10650 60  0000 C CNN
+	1    1075 10650
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
