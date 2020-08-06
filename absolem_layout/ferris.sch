@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:C_Small C1
+L ferris-rescue:C_Small-Device C1
 U 1 1 5ECC190F
 P 2300 4400
 F 0 "C1" V 2250 4450 50  0000 L CNN
@@ -26,7 +26,7 @@ F 4 "C1804" H 2300 4400 50  0001 C CNN "LCSC Part #"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C2
+L ferris-rescue:C_Small-Device C2
 U 1 1 5ECC5F06
 P 2300 4600
 F 0 "C2" V 2350 4450 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "~" H 2300 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C3
+L ferris-rescue:C_Small-Device C3
 U 1 1 5ECE0CD2
 P 2250 6000
 F 0 "C3" V 2150 5950 50  0000 L CNN
@@ -49,7 +49,7 @@ F 4 "C49678" V 2250 6000 50  0001 C CNN "LCSC Part #"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C4
+L ferris-rescue:C_Small-Device C4
 U 1 1 5ECE0FCF
 P 2250 6350
 F 0 "C4" V 2150 6300 50  0000 L CNN
@@ -60,7 +60,7 @@ F 3 "~" H 2250 6350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C5
+L ferris-rescue:C_Small-Device C5
 U 1 1 5ECE11C2
 P 2250 6650
 F 0 "C5" V 2150 6600 50  0000 L CNN
@@ -71,7 +71,7 @@ F 3 "~" H 2250 6650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C6
+L ferris-rescue:C_Small-Device C6
 U 1 1 5ECE13D7
 P 2250 6950
 F 0 "C6" V 2150 6900 50  0000 L CNN
@@ -82,7 +82,7 @@ F 3 "~" H 2250 6950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C7
+L ferris-rescue:C_Small-Device C7
 U 1 1 5ECE163A
 P 2250 7250
 F 0 "C7" V 2150 7200 50  0000 L CNN
@@ -128,7 +128,7 @@ F 4 "C231329" H 2600 4200 50  0001 C CNN "LCSC Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L ferris-rescue:R-Device R1
 U 1 1 5ECF5B89
 P 2900 4050
 F 0 "R1" V 2800 4050 50  0000 C CNN
@@ -140,7 +140,7 @@ F 4 "C17414" V 2900 4050 50  0001 C CNN "LCSC Part #"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C8
+L ferris-rescue:C_Small-Device C8
 U 1 1 5ED59971
 P 2850 5500
 F 0 "C8" V 2800 5400 50  0000 C CNN
@@ -152,7 +152,7 @@ F 4 "C28323" V 2850 5500 50  0001 C CNN "LCSC Part #"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R5
+L ferris-rescue:R-Device R5
 U 1 1 5ED68FE1
 P 1700 4800
 F 0 "R5" V 1600 4800 50  0000 C CNN
@@ -164,7 +164,7 @@ F 4 "C27834" V 1700 4800 50  0001 C CNN "LCSC Part #"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R6
+L ferris-rescue:R-Device R6
 U 1 1 5ED69FD6
 P 1700 4900
 F 0 "R6" V 1800 4900 50  0000 C CNN
@@ -175,7 +175,7 @@ F 3 "~" H 1700 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0107
+L ferris-rescue:GND-power #PWR0107
 U 1 1 5ED72D47
 P 1850 4900
 F 0 "#PWR0107" H 1850 4950 20  0001 C CNN
@@ -191,7 +191,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 5200 1550 5100
 $Comp
-L Device:R R4
+L ferris-rescue:R-Device R4
 U 1 1 5ED4D4BF
 P 1700 5300
 F 0 "R4" V 1800 5300 50  0000 C CNN
@@ -202,7 +202,7 @@ F 3 "~" H 1700 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R3
+L ferris-rescue:R-Device R3
 U 1 1 5ED46B5F
 P 1700 5200
 F 0 "R3" V 1600 5200 50  0000 C CNN
@@ -214,7 +214,7 @@ F 4 "C17561" V 1700 5200 50  0001 C CNN "LCSC Part #"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
+L ferris-rescue:R-Device R2
 U 1 1 5ED02278
 P 4300 6300
 F 0 "R2" V 4200 6300 50  0000 C CNN
@@ -225,7 +225,7 @@ F 3 "~" H 4300 6300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
+L ferris-rescue:USB_C_Receptacle_USB2.0-Connector J1
 U 1 1 5EF5D00C
 P 950 5200
 F 0 "J1" H 1057 6067 50  0000 C CNN
@@ -250,7 +250,7 @@ F 4 "C489144" H 1350 1200 50  0001 C CNN "LCSC Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D0_0
+L ferris-rescue:D-Device D0_0
 U 1 1 5EE1B34F
 P 1050 1350
 F 0 "D0_0" V 1096 1270 50  0000 R CNN
@@ -266,11 +266,11 @@ col0
 Wire Wire Line
 	1650 900  1650 1200
 Text Label 900  1500 2    50   ~ 0
-row0,0
+row0
 Wire Wire Line
 	900  1500 1050 1500
 Text Label 900  2100 2    50   ~ 0
-row0,1
+row1
 $Comp
 L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_0
 U 1 1 5EE22042
@@ -283,7 +283,7 @@ F 3 "" H 1350 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D1_0
+L ferris-rescue:D-Device D1_0
 U 1 1 5EE22835
 P 1050 1950
 F 0 "D1_0" V 1096 1870 50  0000 R CNN
@@ -303,7 +303,7 @@ col1
 Wire Wire Line
 	2350 900  2350 1200
 $Comp
-L Device:D D0_1
+L ferris-rescue:D-Device D0_1
 U 1 1 5EE44032
 P 1750 1350
 F 0 "D0_1" V 1796 1270 50  0000 R CNN
@@ -317,7 +317,7 @@ Wire Wire Line
 	1050 1500 1750 1500
 Connection ~ 1050 1500
 $Comp
-L Device:D D1_1
+L ferris-rescue:D-Device D1_1
 U 1 1 5EE478DC
 P 1750 1950
 F 0 "D1_1" V 1796 1870 50  0000 R CNN
@@ -355,7 +355,7 @@ F 3 "" H 2750 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D0_2
+L ferris-rescue:D-Device D0_2
 U 1 1 5EE8DCFE
 P 2450 1350
 F 0 "D0_2" V 2496 1270 50  0000 R CNN
@@ -399,7 +399,7 @@ Wire Wire Line
 	3050 1200 3050 1800
 Connection ~ 3050 1200
 $Comp
-L Device:D D1_2
+L ferris-rescue:D-Device D1_2
 U 1 1 5EED29B3
 P 2450 1950
 F 0 "D1_2" V 2496 1870 50  0000 R CNN
@@ -421,9 +421,9 @@ F 3 "" H 1350 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 900  2700 2    50   ~ 0
-row0,2
+row2
 $Comp
-L Device:D D2_0
+L ferris-rescue:D-Device D2_0
 U 1 1 5EED3821
 P 1050 2550
 F 0 "D2_0" V 1096 2470 50  0000 R CNN
@@ -468,7 +468,7 @@ Wire Wire Line
 	1750 2100 2450 2100
 Connection ~ 1750 2100
 $Comp
-L Device:D D2_1
+L ferris-rescue:D-Device D2_1
 U 1 1 5EEEC45B
 P 1750 2550
 F 0 "D2_1" V 1796 2470 50  0000 R CNN
@@ -479,7 +479,7 @@ F 3 "~" H 1750 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D2_2
+L ferris-rescue:D-Device D2_2
 U 1 1 5EEECA76
 P 2450 2550
 F 0 "D2_2" V 2496 2470 50  0000 R CNN
@@ -531,7 +531,7 @@ F 3 "" H 3450 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D0_3
+L ferris-rescue:D-Device D0_3
 U 1 1 5EEF7A7A
 P 3150 1350
 F 0 "D0_3" V 3196 1270 50  0000 R CNN
@@ -542,7 +542,7 @@ F 3 "~" H 3150 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D1_3
+L ferris-rescue:D-Device D1_3
 U 1 1 5EEF7F2D
 P 3150 1950
 F 0 "D1_3" V 3196 1870 50  0000 R CNN
@@ -553,7 +553,7 @@ F 3 "~" H 3150 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D2_3
+L ferris-rescue:D-Device D2_3
 U 1 1 5EEF838C
 P 3150 2550
 F 0 "D2_3" V 3196 2470 50  0000 R CNN
@@ -575,7 +575,7 @@ F 3 "" H 4150 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D0_4
+L ferris-rescue:D-Device D0_4
 U 1 1 5EEFA013
 P 3850 1350
 F 0 "D0_4" V 3896 1270 50  0000 R CNN
@@ -597,7 +597,7 @@ F 3 "" H 4150 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D1_4
+L ferris-rescue:D-Device D1_4
 U 1 1 5EEFB5C1
 P 3850 1950
 F 0 "D1_4" V 3896 1870 50  0000 R CNN
@@ -619,7 +619,7 @@ F 3 "" H 4150 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D2_4
+L ferris-rescue:D-Device D2_4
 U 1 1 5EEFC892
 P 3850 2550
 F 0 "D2_4" V 3896 2470 50  0000 R CNN
@@ -684,7 +684,7 @@ F 3 "" H 4150 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D3_3
+L ferris-rescue:D-Device D3_3
 U 1 1 5EF1DB01
 P 3150 3150
 F 0 "D3_3" V 3196 3070 50  0000 R CNN
@@ -695,7 +695,7 @@ F 3 "~" H 3150 3150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D3_4
+L ferris-rescue:D-Device D3_4
 U 1 1 5EF1DFD1
 P 3850 3150
 F 0 "D3_4" V 3896 3070 50  0000 R CNN
@@ -706,7 +706,7 @@ F 3 "~" H 3850 3150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 900  3300 2    50   ~ 0
-row0,3
+row3
 Wire Wire Line
 	4450 3000 4450 2400
 Wire Wire Line
@@ -724,7 +724,7 @@ F 3 "" H 7450 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D0_5
+L ferris-rescue:D-Device D0_5
 U 1 1 5FD3ADC4
 P 7150 1350
 F 0 "D0_5" V 7196 1270 50  0000 R CNN
@@ -754,7 +754,7 @@ F 3 "" H 7450 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D1_5
+L ferris-rescue:D-Device D1_5
 U 1 1 5FD3ADDD
 P 7150 1950
 F 0 "D1_5" V 7196 1870 50  0000 R CNN
@@ -772,7 +772,7 @@ col6
 Wire Wire Line
 	8450 900  8450 1200
 $Comp
-L Device:D D0_6
+L ferris-rescue:D-Device D0_6
 U 1 1 5FD3ADEC
 P 7850 1350
 F 0 "D0_6" V 7896 1270 50  0000 R CNN
@@ -785,7 +785,7 @@ $EndComp
 Wire Wire Line
 	7150 1500 7850 1500
 $Comp
-L Device:D D1_6
+L ferris-rescue:D-Device D1_6
 U 1 1 5FD3ADF8
 P 7850 1950
 F 0 "D1_6" V 7896 1870 50  0000 R CNN
@@ -822,7 +822,7 @@ F 3 "" H 8850 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D0_7
+L ferris-rescue:D-Device D0_7
 U 1 1 5FD3AE19
 P 8550 1350
 F 0 "D0_7" V 8596 1270 50  0000 R CNN
@@ -866,7 +866,7 @@ Wire Wire Line
 	9150 1200 9150 1800
 Connection ~ 9150 1200
 $Comp
-L Device:D D1_7
+L ferris-rescue:D-Device D1_7
 U 1 1 5FD3AE3E
 P 8550 1950
 F 0 "D1_7" V 8596 1870 50  0000 R CNN
@@ -890,7 +890,7 @@ $EndComp
 Text Label 15200 1125 2    50   ~ 0
 row1,2
 $Comp
-L Device:D D2_5
+L ferris-rescue:D-Device D2_5
 U 1 1 5FD3AE53
 P 7150 2550
 F 0 "D2_5" V 7196 2470 50  0000 R CNN
@@ -935,7 +935,7 @@ Wire Wire Line
 	7850 2100 8550 2100
 Connection ~ 7850 2100
 $Comp
-L Device:D D2_6
+L ferris-rescue:D-Device D2_6
 U 1 1 5FD3AE79
 P 7850 2550
 F 0 "D2_6" V 7896 2470 50  0000 R CNN
@@ -946,7 +946,7 @@ F 3 "~" H 7850 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D2_7
+L ferris-rescue:D-Device D2_7
 U 1 1 5FD3AE83
 P 8550 2550
 F 0 "D2_7" V 8596 2470 50  0000 R CNN
@@ -996,7 +996,7 @@ F 3 "" H 9550 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D0_8
+L ferris-rescue:D-Device D0_8
 U 1 1 5FD3AEB0
 P 9250 1350
 F 0 "D0_8" V 9296 1270 50  0000 R CNN
@@ -1007,7 +1007,7 @@ F 3 "~" H 9250 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D1_8
+L ferris-rescue:D-Device D1_8
 U 1 1 5FD3AEBA
 P 9250 1950
 F 0 "D1_8" V 9296 1870 50  0000 R CNN
@@ -1018,7 +1018,7 @@ F 3 "~" H 9250 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D2_8
+L ferris-rescue:D-Device D2_8
 U 1 1 5FD3AEC4
 P 9250 2550
 F 0 "D2_8" V 9296 2470 50  0000 R CNN
@@ -1040,7 +1040,7 @@ F 3 "" H 10250 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D0_9
+L ferris-rescue:D-Device D0_9
 U 1 1 5FD3AED8
 P 9950 1350
 F 0 "D0_9" V 9996 1270 50  0000 R CNN
@@ -1062,7 +1062,7 @@ F 3 "" H 10250 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D1_9
+L ferris-rescue:D-Device D1_9
 U 1 1 5FD3AEEC
 P 9950 1950
 F 0 "D1_9" V 9996 1870 50  0000 R CNN
@@ -1084,7 +1084,7 @@ F 3 "" H 10250 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D2_9
+L ferris-rescue:D-Device D2_9
 U 1 1 5FD3AF00
 P 9950 2550
 F 0 "D2_9" V 9996 2470 50  0000 R CNN
@@ -1167,7 +1167,7 @@ F 3 "" H 7450 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D3_5
+L ferris-rescue:D-Device D3_5
 U 1 1 5FD3AF4E
 P 7150 3150
 F 0 "D3_5" V 7196 3070 50  0000 R CNN
@@ -1184,7 +1184,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 3000 7750 2400
 $Comp
-L Device:D D3_6
+L ferris-rescue:D-Device D3_6
 U 1 1 5FD3AF58
 P 7850 3150
 F 0 "D3_6" V 7896 3070 50  0000 R CNN
@@ -1208,7 +1208,7 @@ $EndComp
 Connection ~ 7750 2400
 Connection ~ 7150 3300
 $Comp
-L Device:Crystal_GND24_Small Y1
+L ferris-rescue:Crystal_GND24_Small-Device Y1
 U 1 1 5F03D985
 P 2600 4500
 F 0 "Y1" V 2650 4700 50  0000 L CNN
@@ -1220,7 +1220,7 @@ F 4 "C13738" H 2600 4500 50  0001 C CNN "LCSC Part #"
 	0    1    1    0   
 $EndComp
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
+L ferris-rescue:ATmega32U4-AU-MCU_Microchip_ATmega U1
 U 1 1 5F0A0905
 P 3550 5700
 F 0 "U1" V 3450 5700 50  0000 C CNN
@@ -1266,7 +1266,7 @@ Wire Wire Line
 	2700 4700 2500 4700
 Connection ~ 2500 4700
 $Comp
-L power:VCC #PWR0109
+L ferris-rescue:VCC-power #PWR0109
 U 1 1 5F35FC78
 P 1550 4600
 F 0 "#PWR0109" H 1550 4450 50  0001 C CNN
@@ -1293,11 +1293,11 @@ Connection ~ 2350 6000
 NoConn ~ 4150 4900
 NoConn ~ 4150 6400
 Text Label 4150 4500 0    50   ~ 0
-row0,0
+row0
 Text Label 4150 4400 0    50   ~ 0
-row0,1
+row1
 Text Label 4150 6600 0    50   ~ 0
-row0,3
+row3
 Text Label 4150 6000 0    50   ~ 0
 col0
 Text Label 4150 6100 0    50   ~ 0
@@ -1309,7 +1309,7 @@ col3
 Text Label 4150 4800 0    50   ~ 0
 col4
 $Comp
-L Device:Polyfuse F1
+L ferris-rescue:Polyfuse-Device F1
 U 1 1 5EF6C20F
 P 1700 4600
 F 0 "F1" V 1600 4600 50  0000 C CNN
@@ -1322,7 +1322,7 @@ F 4 "C151162" V 1700 4600 50  0001 C CNN "LCSC Part #"
 $EndComp
 Connection ~ 1550 4600
 $Comp
-L power:+5V #PWR0102
+L ferris-rescue:+5V-power #PWR0102
 U 1 1 5EF7A4D9
 P 1850 4600
 F 0 "#PWR0102" H 1850 4570 20  0001 C CNN
@@ -1337,7 +1337,7 @@ Wire Wire Line
 	1850 4800 1850 4900
 Connection ~ 1850 4900
 $Comp
-L power:GND #PWR0101
+L ferris-rescue:GND-power #PWR0101
 U 1 1 5F0BBA8B
 P 2200 4700
 F 0 "#PWR0101" H 2200 4750 20  0001 C CNN
@@ -1349,7 +1349,7 @@ F 3 "" H 2200 4700 60  0000 C CNN
 $EndComp
 Connection ~ 2200 4700
 $Comp
-L power:GND #PWR0103
+L ferris-rescue:GND-power #PWR0103
 U 1 1 5F0D0230
 P 2300 4200
 F 0 "#PWR0103" H 2300 4250 20  0001 C CNN
@@ -1360,7 +1360,7 @@ F 3 "" H 2300 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0105
+L ferris-rescue:GND-power #PWR0105
 U 1 1 5F0D4D0E
 P 4450 6300
 F 0 "#PWR0105" H 4450 6350 20  0001 C CNN
@@ -1371,7 +1371,7 @@ F 3 "" H 4450 6300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0108
+L ferris-rescue:GND-power #PWR0108
 U 1 1 5F0E4DAA
 P 950 6100
 F 0 "#PWR0108" H 950 6150 20  0001 C CNN
@@ -1382,7 +1382,7 @@ F 3 "" H 950 6100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0110
+L ferris-rescue:GND-power #PWR0110
 U 1 1 5F0E6435
 P 3450 7500
 F 0 "#PWR0110" H 3450 7550 20  0001 C CNN
@@ -1396,7 +1396,7 @@ Connection ~ 3450 7500
 Wire Wire Line
 	650  6100 950  6100
 $Comp
-L power:GND #PWR0111
+L ferris-rescue:GND-power #PWR0111
 U 1 1 5F0EFAA9
 P 2050 6000
 F 0 "#PWR0111" H 2050 6050 20  0001 C CNN
@@ -1408,7 +1408,7 @@ F 3 "" H 2050 6000 60  0000 C CNN
 $EndComp
 Connection ~ 950  6100
 $Comp
-L power:GND #PWR0115
+L ferris-rescue:GND-power #PWR0115
 U 1 1 5F0FEF96
 P 2750 5500
 F 0 "#PWR0115" H 2750 5550 20  0001 C CNN
@@ -1419,7 +1419,7 @@ F 3 "" H 2750 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0104
+L ferris-rescue:+5V-power #PWR0104
 U 1 1 5F114C70
 P 2900 3900
 F 0 "#PWR0104" H 2900 3870 20  0001 C CNN
@@ -1430,7 +1430,7 @@ F 3 "" H 2900 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0113
+L ferris-rescue:+5V-power #PWR0113
 U 1 1 5F115A95
 P 3550 3900
 F 0 "#PWR0113" H 3550 3870 20  0001 C CNN
@@ -1441,7 +1441,7 @@ F 3 "" H 3550 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0114
+L ferris-rescue:+5V-power #PWR0114
 U 1 1 5F115EB3
 P 2950 5000
 F 0 "#PWR0114" H 2950 4970 20  0001 C CNN
@@ -1452,7 +1452,7 @@ F 3 "" H 2950 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0116
+L ferris-rescue:+5V-power #PWR0116
 U 1 1 5F116385
 P 2450 6000
 F 0 "#PWR0116" H 2450 5970 20  0001 C CNN
@@ -1463,7 +1463,7 @@ F 3 "" H 2450 6000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0101
+L ferris-rescue:PWR_FLAG-power #FLG0101
 U 1 1 5F143292
 P 5350 6550
 F 0 "#FLG0101" H 5350 6625 50  0001 C CNN
@@ -1474,7 +1474,7 @@ F 3 "~" H 5350 6550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0102
+L ferris-rescue:PWR_FLAG-power #FLG0102
 U 1 1 5F135C56
 P 5350 6400
 F 0 "#FLG0102" H 5350 6475 50  0001 C CNN
@@ -1485,7 +1485,7 @@ F 3 "~" H 5350 6400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VCC #PWR0119
+L ferris-rescue:VCC-power #PWR0119
 U 1 1 5F16DF31
 P 5350 6400
 F 0 "#PWR0119" H 5350 6250 50  0001 C CNN
@@ -1496,7 +1496,7 @@ F 3 "" H 5350 6400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VDD #PWR0122
+L ferris-rescue:VDD-power #PWR0122
 U 1 1 5F182963
 P 5350 6550
 F 0 "#PWR0122" H 5350 6400 50  0001 C CNN
@@ -1507,7 +1507,7 @@ F 3 "" H 5350 6550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0127
+L ferris-rescue:+5V-power #PWR0127
 U 1 1 5F1A1606
 P 5350 6250
 F 0 "#PWR0127" H 5350 6220 20  0001 C CNN
@@ -1518,7 +1518,7 @@ F 3 "" H 5350 6250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0103
+L ferris-rescue:PWR_FLAG-power #FLG0103
 U 1 1 5F1A4574
 P 5350 6250
 F 0 "#FLG0103" H 5350 6325 50  0001 C CNN
@@ -1529,7 +1529,7 @@ F 3 "~" H 5350 6250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0104
+L ferris-rescue:PWR_FLAG-power #FLG0104
 U 1 1 5F1B99AF
 P 5350 7100
 F 0 "#FLG0104" H 5350 7175 50  0001 C CNN
@@ -1540,7 +1540,7 @@ F 3 "~" H 5350 7100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0105
+L ferris-rescue:PWR_FLAG-power #FLG0105
 U 1 1 5F1BA008
 P 5350 7250
 F 0 "#FLG0105" H 5350 7325 50  0001 C CNN
@@ -1551,7 +1551,7 @@ F 3 "~" H 5350 7250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VSS #PWR0129
+L ferris-rescue:VSS-power #PWR0129
 U 1 1 5F1BA2AB
 P 5350 7250
 F 0 "#PWR0129" H 5350 7100 50  0001 C CNN
@@ -1562,7 +1562,7 @@ F 3 "" H 5350 7250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0128
+L ferris-rescue:GND-power #PWR0128
 U 1 1 5F1B9CCF
 P 5350 7100
 F 0 "#PWR0128" H 5350 7150 20  0001 C CNN
@@ -1573,7 +1573,7 @@ F 3 "" H 5350 7100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED:WS2812B D1
+L ferris-rescue:WS2812B-LED D1
 U 1 1 5F237653
 P 5250 3700
 F 0 "D1" H 5594 3746 50  0000 L CNN
@@ -1584,7 +1584,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5350 3325 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0118
+L ferris-rescue:GND-power #PWR0118
 U 1 1 5F2446EA
 P 5250 4000
 F 0 "#PWR0118" H 5250 4050 20  0001 C CNN
@@ -1607,7 +1607,7 @@ F 3 "" H 2725 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D3_2
+L ferris-rescue:D-Device D3_2
 U 1 1 5F2A9448
 P 2425 3150
 F 0 "D3_2" V 2471 3070 50  0000 R CNN
@@ -1640,7 +1640,7 @@ Wire Wire Line
 	9150 2400 9150 3000
 Connection ~ 9150 2400
 $Comp
-L Device:D D3_7
+L ferris-rescue:D-Device D3_7
 U 1 1 5F2BEF9B
 P 8550 3150
 F 0 "D3_7" V 8596 3070 50  0000 R CNN
@@ -1680,7 +1680,7 @@ Text Label 4150 6700 0    50   ~ 0
 col9
 NoConn ~ 4500 5475
 Text Label 4150 4300 0    50   ~ 0
-row0,2
+row2
 NoConn ~ 4150 4200
 NoConn ~ 15300 3700
 Text Label 15500 1250 0    50   ~ 0
@@ -1731,7 +1731,7 @@ D+I
 Text Label 1075 10450 2    50   ~ 0
 D-I
 $Comp
-L Regulator_Linear:TLV70012_SOT23-5 U2
+L ferris-rescue:TLV70012_SOT23-5-Regulator_Linear U2
 U 1 1 5F305548
 P 3825 9875
 F 0 "U2" H 3825 10217 50  0000 C CNN
@@ -1742,7 +1742,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tlv700.pdf" H 3825 9925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0106
+L ferris-rescue:+5V-power #PWR0106
 U 1 1 5F308B1A
 P 3200 9625
 F 0 "#PWR0106" H 3200 9595 20  0001 C CNN
@@ -1753,7 +1753,7 @@ F 3 "" H 3200 9625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C9
+L ferris-rescue:C_Small-Device C9
 U 1 1 5F3097C9
 P 3200 10250
 F 0 "C9" V 3100 10200 50  0000 L CNN
@@ -1765,7 +1765,7 @@ F 4 "C49678" V 3200 10250 50  0001 C CNN "LCSC Part #"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C10
+L ferris-rescue:C_Small-Device C10
 U 1 1 5F30A45A
 P 4500 10225
 F 0 "C10" V 4400 10175 50  0000 L CNN
@@ -1777,7 +1777,7 @@ F 4 "C49678" V 4500 10225 50  0001 C CNN "LCSC Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0112
+L ferris-rescue:GND-power #PWR0112
 U 1 1 5F30ABDF
 P 3825 10725
 F 0 "#PWR0112" H 3825 10775 20  0001 C CNN
@@ -1788,7 +1788,7 @@ F 3 "" H 3825 10725 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0117
+L ferris-rescue:+3.3V-power #PWR0117
 U 1 1 5F30C6C4
 P 5350 6775
 F 0 "#PWR0117" H 5350 6625 50  0001 C CNN
@@ -1799,7 +1799,7 @@ F 3 "" H 5350 6775 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0106
+L ferris-rescue:PWR_FLAG-power #FLG0106
 U 1 1 5F30D7CC
 P 5350 6775
 F 0 "#FLG0106" H 5350 6850 50  0001 C CNN
@@ -1810,7 +1810,7 @@ F 3 "~" H 5350 6775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0120
+L ferris-rescue:+3.3V-power #PWR0120
 U 1 1 5F30EBCB
 P 4500 9625
 F 0 "#PWR0120" H 4500 9475 50  0001 C CNN
@@ -1857,7 +1857,7 @@ D+
 Text Label 1875 10450 0    50   ~ 0
 D-
 $Comp
-L power:+3.3V #PWR0121
+L ferris-rescue:+3.3V-power #PWR0121
 U 1 1 5F335F51
 P 1075 10150
 F 0 "#PWR0121" H 1075 10000 50  0001 C CNN
@@ -1868,7 +1868,7 @@ F 3 "" H 1075 10150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0123
+L ferris-rescue:GND-power #PWR0123
 U 1 1 5F336B78
 P 1075 10650
 F 0 "#PWR0123" H 1075 10700 20  0001 C CNN
@@ -1879,7 +1879,7 @@ F 3 "" H 1075 10650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MCU_ST_STM32F3:STM32F303CBTx U3
+L ferris-rescue:STM32F303CBTx-MCU_ST_STM32F3 U3
 U 1 1 5F2CE539
 P 10825 5425
 F 0 "U3" H 10825 5675 50  0000 C CNN
@@ -1890,7 +1890,7 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0124
+L ferris-rescue:+3.3V-power #PWR0124
 U 1 1 5F2D5F54
 P 10825 3500
 F 0 "#PWR0124" H 10825 3350 50  0001 C CNN
@@ -1924,7 +1924,7 @@ Wire Wire Line
 	10625 3650 10725 3650
 Connection ~ 10725 3650
 $Comp
-L power:GND #PWR0125
+L ferris-rescue:GND-power #PWR0125
 U 1 1 5F30895E
 P 10750 7400
 F 0 "#PWR0125" H 10750 7450 20  0001 C CNN
@@ -1968,7 +1968,7 @@ $EndComp
 Wire Wire Line
 	10125 4325 9000 4325
 $Comp
-L power:+3.3V #PWR0126
+L ferris-rescue:+3.3V-power #PWR0126
 U 1 1 5F346246
 P 8350 4025
 F 0 "#PWR0126" H 8350 3875 50  0001 C CNN
@@ -1981,7 +1981,7 @@ $EndComp
 Wire Wire Line
 	8350 4025 8350 4325
 $Comp
-L Device:R R7
+L ferris-rescue:R-Device R7
 U 1 1 5F355C69
 P 9000 4475
 F 0 "R7" V 8900 4475 50  0000 C CNN
@@ -1996,7 +1996,7 @@ Connection ~ 9000 4325
 Wire Wire Line
 	9000 4325 8950 4325
 $Comp
-L power:GND #PWR0130
+L ferris-rescue:GND-power #PWR0130
 U 1 1 5F359ECB
 P 9000 4725
 F 0 "#PWR0130" H 9000 4775 20  0001 C CNN
@@ -2009,7 +2009,7 @@ $EndComp
 Wire Wire Line
 	9000 4625 9000 4725
 $Comp
-L Device:Crystal_GND24 Y2
+L ferris-rescue:Crystal_GND24-Device Y2
 U 1 1 5F3648C6
 P 6800 8925
 F 0 "Y2" H 6994 8971 50  0000 L CNN
@@ -2020,7 +2020,7 @@ F 3 "~" H 6800 8925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C11
+L ferris-rescue:C_Small-Device C11
 U 1 1 5F388BCB
 P 6300 9250
 F 0 "C11" V 6350 9100 50  0000 L CNN
@@ -2031,7 +2031,7 @@ F 3 "~" H 6300 9250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C12
+L ferris-rescue:C_Small-Device C12
 U 1 1 5F3901A1
 P 7375 9250
 F 0 "C12" V 7425 9100 50  0000 L CNN
@@ -2042,7 +2042,7 @@ F 3 "~" H 7375 9250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0131
+L ferris-rescue:GND-power #PWR0131
 U 1 1 5F391618
 P 6300 9600
 F 0 "#PWR0131" H 6300 9650 20  0001 C CNN
@@ -2053,7 +2053,7 @@ F 3 "" H 6300 9600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0132
+L ferris-rescue:GND-power #PWR0132
 U 1 1 5F392713
 P 7375 9625
 F 0 "#PWR0132" H 7375 9675 20  0001 C CNN
@@ -2064,7 +2064,7 @@ F 3 "" H 7375 9625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0133
+L ferris-rescue:GND-power #PWR0133
 U 1 1 5F392D31
 P 6800 9400
 F 0 "#PWR0133" H 6800 9450 20  0001 C CNN
@@ -2129,4 +2129,31 @@ Text Notes 7075 9875 2    50   ~ 0
 Oscillator unit
 Wire Wire Line
 	10750 7400 10750 7225
+Wire Wire Line
+	10125 4125 10125 3750
+Wire Wire Line
+	10125 3750 9750 3750
+$Comp
+L ferris-rescue:C_Small-Device C?
+U 1 1 5F35F244
+P 9750 3850
+F 0 "C?" V 9650 3800 50  0000 L CNN
+F 1 "100n" V 9850 3750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 3850 50  0001 C CNN
+F 3 "~" H 9750 3850 50  0001 C CNN
+F 4 "C49678" V 9750 3850 50  0001 C CNN "LCSC Part #"
+	1    9750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ferris-rescue:GND-power #PWR?
+U 1 1 5F397A3F
+P 9750 3950
+F 0 "#PWR?" H 9750 4000 20  0001 C CNN
+F 1 "GND" V 9750 3750 30  0000 L CNN
+F 2 "" H 9750 3950 60  0000 C CNN
+F 3 "" H 9750 3950 60  0000 C CNN
+	1    9750 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
