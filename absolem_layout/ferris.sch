@@ -16,51 +16,51 @@ $EndDescr
 $Comp
 L ferris-rescue:R-Device R1
 U 1 1 5ED68FE1
-P 1700 4800
-F 0 "R1" V 1600 4800 50  0000 C CNN
-F 1 "5.1K" V 1700 4800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 4800 50  0001 C CNN
-F 3 "~" H 1700 4800 50  0001 C CNN
-F 4 "C27834" V 1700 4800 50  0001 C CNN "LCSC Part #"
-	1    1700 4800
+P 2550 4975
+F 0 "R1" V 2450 4975 50  0000 C CNN
+F 1 "5.1K" V 2550 4975 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2480 4975 50  0001 C CNN
+F 3 "~" H 2550 4975 50  0001 C CNN
+F 4 "C27834" V 2550 4975 50  0001 C CNN "LCSC Part #"
+	1    2550 4975
 	0    1    1    0   
 $EndComp
 $Comp
 L ferris-rescue:R-Device R2
 U 1 1 5ED69FD6
-P 1700 4900
-F 0 "R2" V 1800 4900 50  0000 C CNN
-F 1 "5.1K" V 1700 4900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 4900 50  0001 C CNN
-F 3 "~" H 1700 4900 50  0001 C CNN
-	1    1700 4900
+P 2550 5075
+F 0 "R2" V 2650 5075 50  0000 C CNN
+F 1 "5.1K" V 2550 5075 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2480 5075 50  0001 C CNN
+F 3 "~" H 2550 5075 50  0001 C CNN
+	1    2550 5075
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 5ED72D47
-P 2350 4875
-F 0 "#PWR06" H 2350 4925 20  0001 C CNN
-F 1 "GND" H 2400 4825 30  0000 L CNN
-F 2 "" H 2350 4875 60  0000 C CNN
-F 3 "" H 2350 4875 60  0000 C CNN
-	1    2350 4875
+P 3200 5050
+F 0 "#PWR06" H 3200 5100 20  0001 C CNN
+F 1 "GND" H 3250 5000 30  0000 L CNN
+F 2 "" H 3200 5050 60  0000 C CNN
+F 3 "" H 3200 5050 60  0000 C CNN
+	1    3200 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 5400 1550 5350
+	2400 5575 2400 5525
 Wire Wire Line
-	1550 5200 1550 5150
+	2400 5375 2400 5325
 $Comp
 L ferris-rescue:USB_C_Receptacle_USB2.0-Connector J1
 U 1 1 5EF5D00C
-P 950 5200
-F 0 "J1" H 1057 6067 50  0000 C CNN
-F 1 "USB C" H 1057 5976 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1100 5200 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1100 5200 50  0001 C CNN
-F 4 "C165948" H 950 5200 50  0001 C CNN "LCSC Part #"
-	1    950  5200
+P 1800 5375
+F 0 "J1" H 1907 6242 50  0000 C CNN
+F 1 "USB C" H 1907 6151 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1950 5375 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1950 5375 50  0001 C CNN
+F 4 "C165948" H 1800 5375 50  0001 C CNN "LCSC Part #"
+	1    1800 5375
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -564,10 +564,6 @@ Text Label 7750 900  0    50   ~ 0
 col5
 Wire Wire Line
 	7750 900  7750 1200
-Text Label 15200 875  2    50   ~ 0
-row1,0
-Text Label 15200 1000 2    50   ~ 0
-row1,1
 $Comp
 L ferris-rescue:KEYSW-keyboard_parts-ferris-rescue K1_6
 U 1 1 5FD3ADD3
@@ -713,8 +709,6 @@ F 3 "" H 7450 2400 60  0000 C CNN
 	1    7450 2400
 	1    0    0    -1  
 $EndComp
-Text Label 15200 1125 2    50   ~ 0
-row1,2
 $Comp
 L ferris-rescue:D-Device D2_6
 U 1 1 5FD3AE53
@@ -960,8 +954,8 @@ Wire Wire Line
 Connection ~ 9950 1500
 Wire Wire Line
 	8550 2700 9250 2700
-NoConn ~ 1550 5700
-NoConn ~ 1550 5800
+NoConn ~ 2400 5875
+NoConn ~ 2400 5975
 Wire Wire Line
 	10550 1800 10550 2400
 Wire Wire Line
@@ -1024,37 +1018,37 @@ F 3 "" H 8150 3000 60  0000 C CNN
 $EndComp
 Connection ~ 7750 2400
 Connection ~ 7150 3300
-Text Label 1850 5350 0    50   ~ 0
+Text Label 2700 5525 0    50   ~ 0
 D+I
-Text Label 1850 5150 0    50   ~ 0
+Text Label 2700 5325 0    50   ~ 0
 D-I
 $Comp
 L ferris-rescue:Polyfuse-Device F1
 U 1 1 5EF6C20F
-P 1850 4600
-F 0 "F1" V 1750 4600 50  0000 C CNN
-F 1 "500mA" V 1850 4600 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 1900 4400 50  0001 L CNN
-F 3 "~" H 1850 4600 50  0001 C CNN
-F 4 "C151162" V 1850 4600 50  0001 C CNN "LCSC Part #"
-	1    1850 4600
+P 2700 4775
+F 0 "F1" V 2600 4775 50  0000 C CNN
+F 1 "500mA" V 2700 4775 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 2750 4575 50  0001 L CNN
+F 3 "~" H 2700 4775 50  0001 C CNN
+F 4 "C151162" V 2700 4775 50  0001 C CNN "LCSC Part #"
+	1    2700 4775
 	0    1    1    0   
 $EndComp
 $Comp
 L ferris-rescue:+5V-power #PWR05
 U 1 1 5EF7A4D9
-P 2000 4600
-F 0 "#PWR05" H 2000 4570 20  0001 C CNN
-F 1 "+5V" H 2015 4758 30  0000 C CNN
-F 2 "" H 2000 4600 60  0000 C CNN
-F 3 "" H 2000 4600 60  0000 C CNN
-	1    2000 4600
+P 2850 4775
+F 0 "#PWR05" H 2850 4745 20  0001 C CNN
+F 1 "+5V" H 2865 4933 30  0000 C CNN
+F 2 "" H 2850 4775 60  0000 C CNN
+F 3 "" H 2850 4775 60  0000 C CNN
+	1    2850 4775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 4800 1850 4850
+	2700 4975 2700 5025
 Wire Wire Line
-	650  6100 800  6100
+	1500 6275 1650 6275
 $Comp
 L ferris-rescue:+5V-power #PWR012
 U 1 1 5F1A1606
@@ -1135,8 +1129,6 @@ $EndComp
 Wire Wire Line
 	7850 3300 8550 3300
 Connection ~ 7850 3300
-Text Label 15200 1250 2    50   ~ 0
-row1,3
 Wire Wire Line
 	3850 2700 7150 2700
 Connection ~ 3850 2700
@@ -1159,14 +1151,6 @@ Wire Wire Line
 Connection ~ 4450 1800
 Connection ~ 4450 2400
 NoConn ~ 13075 3775
-Text Label 15500 1250 0    50   ~ 0
-row1,3
-Text Label 15525 1100 0    50   ~ 0
-row1,2
-Text Label 15500 975  0    50   ~ 0
-row1,1
-Text Label 15525 850  0    50   ~ 0
-row1,0
 $Comp
 L NUF2221W1T2G:NUF2221W1T2G IC1
 U 1 1 5F2F5E67
@@ -1779,11 +1763,11 @@ Wire Wire Line
 	11425 5725 11775 5725
 Wire Wire Line
 	11425 5825 11775 5825
-Text Label 11775 5625 0    50   ~ 0
+Text Label 11775 6025 0    50   ~ 0
 row2
-Text Label 11775 5725 0    50   ~ 0
+Text Label 11775 6125 0    50   ~ 0
 row1
-Text Label 11775 5825 0    50   ~ 0
+Text Label 11775 6225 0    50   ~ 0
 row0
 Wire Wire Line
 	11425 6025 11775 6025
@@ -1791,12 +1775,10 @@ Wire Wire Line
 	11425 6125 11775 6125
 Wire Wire Line
 	11425 6225 11775 6225
-Text Label 11775 6025 0    50   ~ 0
-col1
-Text Label 11775 6125 0    50   ~ 0
+Text Label 11775 5825 0    50   ~ 0
+col7
+Text Label 9750 5725 2    50   ~ 0
 col0
-Text Label 11775 6225 0    50   ~ 0
-col5
 $Comp
 L ferris-rescue:WS2812B-LED D1
 U 1 1 5F58B391
@@ -1821,33 +1803,27 @@ F 3 "" H 12775 3475 60  0000 C CNN
 $EndComp
 Text Label 12475 3775 2    50   ~ 0
 LAYER_LED
-Text Label 9750 6725 2    50   ~ 0
-col2
 Wire Wire Line
 	9750 6725 10125 6725
 Wire Wire Line
 	10125 6625 9750 6625
 Wire Wire Line
-	10125 6525 9750 6525
-Wire Wire Line
 	10125 6125 9750 6125
-Text Label 9750 6625 2    50   ~ 0
-col3
 Text Label 9750 6125 2    50   ~ 0
 col4
-Text Label 9750 6525 2    50   ~ 0
+Text Label 11775 5725 0    50   ~ 0
 col6
-Text Label 9750 5825 2    50   ~ 0
-col7
+Text Label 9750 5625 2    50   ~ 0
+col1
 Wire Wire Line
 	9750 5825 10125 5825
 Wire Wire Line
 	10125 5725 9750 5725
 Wire Wire Line
 	10125 5625 9750 5625
-Text Label 9750 5725 2    50   ~ 0
+Text Label 9750 6725 2    50   ~ 0
 col8
-Text Label 9750 5625 2    50   ~ 0
+Text Label 9750 6625 2    50   ~ 0
 col9
 Text Label 9750 3550 2    50   ~ 0
 NRST
@@ -1880,22 +1856,22 @@ SWCLK
 Wire Wire Line
 	11750 6625 11425 6625
 Wire Wire Line
-	1550 5150 1850 5150
-Connection ~ 1550 5150
+	2400 5325 2700 5325
+Connection ~ 2400 5325
 Wire Wire Line
-	1550 5150 1550 5100
+	2400 5325 2400 5275
 Wire Wire Line
-	1850 5350 1550 5350
-Connection ~ 1550 5350
+	2700 5525 2400 5525
+Connection ~ 2400 5525
 Wire Wire Line
-	1550 5350 1550 5300
+	2400 5525 2400 5475
 Wire Wire Line
-	1850 4850 2350 4850
+	2700 5025 3200 5025
 Wire Wire Line
-	2350 4850 2350 4875
-Connection ~ 1850 4850
+	3200 5025 3200 5050
+Connection ~ 2700 5025
 Wire Wire Line
-	1850 4850 1850 4900
+	2700 5025 2700 5075
 NoConn ~ 10125 4825
 NoConn ~ 10125 4925
 NoConn ~ 10125 5025
@@ -1909,23 +1885,22 @@ NoConn ~ 11425 5925
 NoConn ~ 10125 6425
 NoConn ~ 10125 6325
 NoConn ~ 10125 6225
-NoConn ~ 10125 5925
 NoConn ~ 10125 6025
 NoConn ~ 10125 5325
 $Comp
 L power:GND #PWR0101
 U 1 1 5F8C4642
-P 800 6100
-F 0 "#PWR0101" H 800 6150 20  0001 C CNN
-F 1 "GND" V 800 5900 30  0000 L CNN
-F 2 "" H 800 6100 60  0000 C CNN
-F 3 "" H 800 6100 60  0000 C CNN
-	1    800  6100
+P 1650 6275
+F 0 "#PWR0101" H 1650 6325 20  0001 C CNN
+F 1 "GND" V 1650 6075 30  0000 L CNN
+F 2 "" H 1650 6275 60  0000 C CNN
+F 3 "" H 1650 6275 60  0000 C CNN
+	1    1650 6275
 	1    0    0    -1  
 $EndComp
-Connection ~ 800  6100
+Connection ~ 1650 6275
 Wire Wire Line
-	800  6100 950  6100
+	1650 6275 1800 6275
 $Comp
 L power:GND #PWR0102
 U 1 1 5F8C5CBD
@@ -1960,25 +1935,36 @@ F 3 "" H 12775 4075 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 4600 1650 4600
+	2550 4775 2500 4775
 Wire Wire Line
 	1075 10650 950  10650
 $Comp
 L ferris-rescue:PWR_FLAG-power #FLG0102
 U 1 1 5F962B5E
-P 1650 4600
-F 0 "#FLG0102" H 1650 4675 50  0001 C CNN
-F 1 "PWR_FLAG" V 1650 4727 50  0000 L CNN
-F 2 "" H 1650 4600 50  0001 C CNN
-F 3 "~" H 1650 4600 50  0001 C CNN
-	1    1650 4600
+P 2500 4775
+F 0 "#FLG0102" H 2500 4850 50  0001 C CNN
+F 1 "PWR_FLAG" V 2500 4902 50  0000 L CNN
+F 2 "" H 2500 4775 50  0001 C CNN
+F 3 "~" H 2500 4775 50  0001 C CNN
+	1    2500 4775
 	1    0    0    -1  
 $EndComp
-Connection ~ 1650 4600
+Connection ~ 2500 4775
 Wire Wire Line
-	1650 4600 1550 4600
+	2500 4775 2400 4775
 Text Label 11750 6725 0    50   ~ 0
 LAYER_LED
 Wire Wire Line
 	11750 6725 11425 6725
+Wire Wire Line
+	10125 5925 9750 5925
+Text Label 9750 5825 2    50   ~ 0
+col2
+Text Label 9750 5925 2    50   ~ 0
+col3
+Text Label 11775 5625 0    50   ~ 0
+col5
+NoConn ~ 10125 6525
+Text Notes 2025 6650 2    50   ~ 0
+USB Connection
 $EndSCHEMATC
